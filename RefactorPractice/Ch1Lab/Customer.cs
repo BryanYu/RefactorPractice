@@ -33,32 +33,8 @@ namespace RefatorPractice.Ch1Lab
             this._rental.ForEach(
                 item =>
                 {
-                    var thisAmount = 0.0;
+                    var thisAmount = GetAmount(item);
 
-                    switch (item.Movie.PriceCode)
-                    {
-                        case Movie.Regular:
-                            thisAmount += 2;
-                            if (item.DayRented > 2)
-                            {
-                                thisAmount += (item.DayRented - 2) * 1.5;
-                            }
-
-                            break;
-
-                        case Movie.New_Release:
-                            thisAmount += item.DayRented * 3;
-                            break;
-
-                        case Movie.Childrens:
-                            thisAmount += 1.5;
-                            if (item.DayRented > 3)
-                            {
-                                thisAmount += (item.DayRented - 3) * 1.5;
-                            }
-
-                            break;
-                    }
                     frequentRenterPoints++;
                     if (item.Movie.PriceCode == Movie.New_Release && item.DayRented > 1)
                     {
@@ -71,6 +47,37 @@ namespace RefatorPractice.Ch1Lab
             result += $"You earned {frequentRenterPoints} frequent renter points";
 
             return result;
+        }
+
+        private double GetAmount(Rental item)
+        {
+            var thisAmount = 0.0;
+            switch (item.Movie.PriceCode)
+            {
+                case Movie.Regular:
+                    thisAmount += 2;
+                    if (item.DayRented > 2)
+                    {
+                        thisAmount += (item.DayRented - 2) * 1.5;
+                    }
+
+                    break;
+
+                case Movie.New_Release:
+                    thisAmount += item.DayRented * 3;
+                    break;
+
+                case Movie.Childrens:
+                    thisAmount += 1.5;
+                    if (item.DayRented > 3)
+                    {
+                        thisAmount += (item.DayRented - 3) * 1.5;
+                    }
+
+                    break;
+            }
+
+            return thisAmount;
         }
     }
 }
