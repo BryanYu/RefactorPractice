@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ch1Lab\ChildrensPrice.cs" />
     <Compile Include="Ch1Lab\Customer.cs" />
     <Compile Include="Ch1Lab\Movie.cs" />
+    <Compile Include="Ch1Lab\NewReleasePrice.cs" />
+    <Compile Include="Ch1Lab\Price.cs" />
+    <Compile Include="Ch1Lab\RegularPrice.cs" />
     <Compile Include="Ch1Lab\Rental.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

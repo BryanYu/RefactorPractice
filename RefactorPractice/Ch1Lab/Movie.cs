@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Runtime.InteropServices;
 
 namespace RefatorPractice.Ch1Lab
@@ -13,14 +14,21 @@ namespace RefatorPractice.Ch1Lab
 
         public const int New_Release = 1;
 
+        private Price _price;
         public string Title { get; }
 
-        public int PriceCode { get; set; }
+        public int PriceCode
+        {
+            get
+            {
+                return this._price.GetPriceCode();
+            }
+        }
 
         public Movie(string title, int priceCode)
         {
             this.Title = title;
-            this.PriceCode = priceCode;
+            this.setPrice(priceCode);
         }
 
         public double GetCharge(int daysRented)
@@ -62,6 +70,24 @@ namespace RefatorPractice.Ch1Lab
             }
 
             return 1;
+        }
+
+        private void setPrice(int priceCode)
+        {
+            switch (priceCode)
+            {
+                case Regular:
+                    this._price = new RegularPrice();
+                    break;
+
+                case New_Release:
+                    this._price = new NewReleasePrice();
+                    break;
+
+                case Childrens:
+                    this._price = new ChildrensPrice();
+                    break;
+            }
         }
     }
 }
