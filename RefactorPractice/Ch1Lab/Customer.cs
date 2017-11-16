@@ -33,15 +33,13 @@ namespace RefatorPractice.Ch1Lab
             this._rental.ForEach(
                 item =>
                 {
-                    var thisAmount = item.GetCharge();
-
                     frequentRenterPoints++;
                     if (item.Movie.PriceCode == Movie.New_Release && item.DayRented > 1)
                     {
                         frequentRenterPoints++;
                     }
-                    result += $" {item.Movie.Title} {thisAmount}";
-                    totalAmount += thisAmount;
+                    result += $" {item.Movie.Title} {item.GetCharge()}";
+                    totalAmount += item.GetCharge();
                 });
             result += $" Amount owed is {totalAmount} ";
             result += $"You earned {frequentRenterPoints} frequent renter points";
