@@ -49,35 +49,35 @@ namespace RefatorPractice.Ch1Lab
             return result;
         }
 
-        private double GetAmount(Rental item)
+        private double GetAmount(Rental rental)
         {
-            var thisAmount = 0.0;
-            switch (item.Movie.PriceCode)
+            var result = 0.0;
+            switch (rental.Movie.PriceCode)
             {
                 case Movie.Regular:
-                    thisAmount += 2;
-                    if (item.DayRented > 2)
+                    result += 2;
+                    if (rental.DayRented > 2)
                     {
-                        thisAmount += (item.DayRented - 2) * 1.5;
+                        result += (rental.DayRented - 2) * 1.5;
                     }
 
                     break;
 
                 case Movie.New_Release:
-                    thisAmount += item.DayRented * 3;
+                    result += rental.DayRented * 3;
                     break;
 
                 case Movie.Childrens:
-                    thisAmount += 1.5;
-                    if (item.DayRented > 3)
+                    result += 1.5;
+                    if (rental.DayRented > 3)
                     {
-                        thisAmount += (item.DayRented - 3) * 1.5;
+                        result += (rental.DayRented - 3) * 1.5;
                     }
 
                     break;
             }
 
-            return thisAmount;
+            return result;
         }
     }
 }
