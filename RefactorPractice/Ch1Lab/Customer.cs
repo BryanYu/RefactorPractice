@@ -23,11 +23,6 @@ namespace RefatorPractice.Ch1Lab
 
         public string GetStatement()
         {
-            // 總消費金額
-            var totalAmount = 0.0;
-
-            // 常客積點
-
             var result = "Rental Record for" + this.Name;
 
             this._rental.ForEach(
