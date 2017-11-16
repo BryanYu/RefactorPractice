@@ -27,19 +27,29 @@ namespace RefatorPractice.Ch1Lab
             var totalAmount = 0.0;
 
             // 常客積點
-            var frequentRenterPoints = 0;
+
             var result = "Rental Record for" + this.Name;
 
             this._rental.ForEach(
                 item =>
                 {
-                    frequentRenterPoints = item.GetFrequentRenterPoints();
                     result += $" {item.Movie.Title} {item.GetCharge()}";
-                    totalAmount += item.GetCharge();
                 });
-            result += $" Amount owed is {totalAmount} ";
-            result += $"You earned {frequentRenterPoints} frequent renter points";
+            result += $" Amount owed is {this.GetTotalCharege()} ";
+            result += $"You earned {this.GetTotalFrequentRenterPoints()} frequent renter points";
 
+            return result;
+        }
+
+        private double GetTotalCharege()
+        {
+            double result = this._rental.Sum(item => item.GetCharge());
+            return result;
+        }
+
+        private int GetTotalFrequentRenterPoints()
+        {
+            int result = this._rental.Sum(item => item.GetFrequentRenterPoints());
             return result;
         }
     }
