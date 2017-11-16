@@ -6,8 +6,7 @@
 
         public int DayRented { get; }
 
-        public Rental(Movie movie,
-                      int dayRented)
+        public Rental(Movie movie, int dayRented)
         {
             this.Movie = movie;
             this.DayRented = dayRented;
@@ -42,6 +41,16 @@
             }
 
             return result;
+        }
+
+        public int GetFrequentRenterPoints()
+        {
+            if (this.Movie.PriceCode == Movie.New_Release && this.DayRented > 1)
+            {
+                return 2;
+            }
+
+            return 1;
         }
     }
 }
