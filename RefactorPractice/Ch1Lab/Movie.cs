@@ -38,12 +38,7 @@ namespace RefatorPractice.Ch1Lab
 
         public int GetFrequentRenterPoints(int dayRented)
         {
-            if (this.PriceCode == New_Release && dayRented > 1)
-            {
-                return 2;
-            }
-
-            return 1;
+            return this._price.GetFrequentRenterPoints(dayRented);
         }
 
         private void setPrice(int priceCode)

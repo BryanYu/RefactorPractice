@@ -11,5 +11,10 @@
         {
             return daysRented * 3;
         }
+
+        public override int GetFrequentRenterPoints(int dayRented)
+        {
+            return dayRented > 1 ? 2 : 1;
+        }
     }
 }
