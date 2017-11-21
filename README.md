@@ -52,4 +52,8 @@
 * 被拒絕的遺贈(Refused Bequest)
 * 過多的註釋(Comments)
 
+## 重構手法
+* [提煉函式(Extract Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ExtractMethod)
+
+
 
