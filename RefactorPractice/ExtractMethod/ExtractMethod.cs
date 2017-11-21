@@ -18,19 +18,24 @@ namespace RefactorPractice.ExtractMethod
 
         private void PrintOwing()
         {
-            var list = new List<double>();
-            double outstanding = 0.0;
-
             // print banner
             PrintBanner();
-
-            foreach (var argument in list)
-            {
-                outstanding += argument;
-            }
+            double outstanding = GetOutStanding();
 
             // print detail
             PrintDetail(outstanding);
+        }
+
+        private double GetOutStanding()
+        {
+            var list = new List<double>();
+            double result = 0.0;
+            foreach (var argument in list)
+            {
+                result += argument;
+            }
+
+            return result;
         }
 
         private void PrintDetail(double outstanding)
