@@ -9,7 +9,7 @@ namespace RefactorPractice.ExtractMethod
 {
     internal class ExtractMethod
     {
-        private static void PrintBanner()
+        private void PrintBanner()
         {
             Console.WriteLine("**************************");
             Console.WriteLine("***** Customer Owes  *****");
@@ -30,6 +30,11 @@ namespace RefactorPractice.ExtractMethod
             }
 
             // print detail
+            PrintDetail(outstanding);
+        }
+
+        private void PrintDetail(double outstanding)
+        {
             Console.WriteLine("name:Customer");
             Console.WriteLine("amount:" + outstanding);
         }
