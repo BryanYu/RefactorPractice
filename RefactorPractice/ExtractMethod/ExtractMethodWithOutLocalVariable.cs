@@ -9,15 +9,20 @@ namespace RefactorPractice.ExtractMethod
 {
     internal class ExtractMethodWithOutLocalVariable
     {
+        private static void PrintBanner()
+        {
+            Console.WriteLine("**************************");
+            Console.WriteLine("***** Customer Owes  *****");
+            Console.WriteLine("**************************");
+        }
+
         private void PrintOwing()
         {
             var list = new List<double>();
             double outstanding = 0.0;
 
             // print banner
-            Console.WriteLine("**************************");
-            Console.WriteLine("***** Customer Owes  *****");
-            Console.WriteLine("**************************");
+            PrintBanner();
 
             foreach (var argument in list)
             {
