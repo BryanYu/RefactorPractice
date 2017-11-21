@@ -49,7 +49,7 @@
     <Compile Include="Ch1Lab\Price.cs" />
     <Compile Include="Ch1Lab\RegularPrice.cs" />
     <Compile Include="Ch1Lab\Rental.cs" />
-    <Compile Include="ExtractMethod\ExtractMethodWithOutLocalVariable.cs" />
+    <Compile Include="ExtractMethod\ExtractMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

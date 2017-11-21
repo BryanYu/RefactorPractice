@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RefactorPractice.ExtractMethod
 {
-    internal class ExtractMethodWithOutLocalVariable
+    internal class ExtractMethod
     {
         private static void PrintBanner()
         {
