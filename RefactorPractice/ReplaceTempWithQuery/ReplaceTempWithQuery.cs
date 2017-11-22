@@ -14,15 +14,19 @@ namespace RefactorPractice.ReplaceTempWithQuery
 
         public double Sample()
         {
-            double basePrice = this._quantity * this._itemPrice;
-            if (basePrice > 1000)
+            if (GetBasePrice() > 1000)
             {
-                return basePrice * 0.95;
+                return GetBasePrice() * 0.95;
             }
             else
             {
-                return basePrice * 0.98;
+                return GetBasePrice() * 0.98;
             }
+        }
+
+        private double GetBasePrice()
+        {
+            return this._quantity * this._itemPrice;
         }
     }
 }
