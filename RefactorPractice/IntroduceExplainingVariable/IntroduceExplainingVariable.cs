@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RefactorPractice.IntroduceExplainingVarible
+namespace RefactorPractice.IntroduceExplainingVariable
 {
-    public class IntroduceExplainingVarible
+    public class IntroduceExplainingVariable
     {
         private double _quantity = 0;
 
