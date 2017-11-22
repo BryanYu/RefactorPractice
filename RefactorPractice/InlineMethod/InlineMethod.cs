@@ -12,12 +12,7 @@ namespace RefactorPractice.InlineMethod
 
         public int GetRating()
         {
-            return (this.MoreThanFiveLateDeliveries()) ? 2 : 1;
-        }
-
-        public bool MoreThanFiveLateDeliveries()
-        {
-            return this._moreThanFiveLateDeliveries > 5;
+            return (this._moreThanFiveLateDeliveries > 5) ? 2 : 1;
         }
     }
 }
