@@ -52,6 +52,7 @@
     <Compile Include="ExtractMethod\ExtractMethod.cs" />
     <Compile Include="InlineMethod\InlineMethod.cs" />
     <Compile Include="InlineTemp\InlineTemp.cs" />
+    <Compile Include="IntroduceExplainingVarible\IntroduceExplainingVarible.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReplaceTempWithQuery\ReplaceTempWithQuery.cs" />
