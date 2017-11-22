@@ -11,8 +11,7 @@ namespace RefactorPractice.InlineTemp
     {
         public bool Sample()
         {
-            double basePrice = this.GetBasePrice();
-            return (basePrice > 1000);
+            return (this.GetBasePrice() > 1000);
         }
 
         public double GetBasePrice()
