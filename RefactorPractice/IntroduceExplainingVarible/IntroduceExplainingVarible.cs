@@ -14,8 +14,10 @@ namespace RefactorPractice.IntroduceExplainingVarible
 
         public double GetPrice()
         {
-            return this._quantity * this._itemPrice - Math.Max(0, this._quantity - 500) * this._itemPrice * 0.05
-                   + Math.Min(this._quantity * this._itemPrice * 0.1, 100);
+            var basePrice = this._quantity * this._itemPrice;
+            var quantityDiscount = Math.Max(0, this._quantity - 500) * this._itemPrice * 0.05;
+            var shipping = Math.Min(basePrice * 0.1, 100);
+            return basePrice - quantityDiscount + shipping;
         }
     }
 }
