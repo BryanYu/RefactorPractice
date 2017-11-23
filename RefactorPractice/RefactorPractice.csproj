@@ -71,6 +71,7 @@
     <None Include="ReplaceMethodWithMethodObject\README.md" />
     <None Include="ReplaceTempWithQuery\README.md" />
     <None Include="SplitTemporaryVariable\README.md" />
+    <None Include="SubstituteAlgorithm\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
