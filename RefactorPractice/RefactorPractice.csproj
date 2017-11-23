@@ -59,6 +59,7 @@
     <Compile Include="ReplaceMethodWithMethodObject\ReplaceMethodWithMethodObject.cs" />
     <Compile Include="ReplaceTempWithQuery\ReplaceTempWithQuery.cs" />
     <Compile Include="SplitTemporaryVariable\SplitTemporaryVariable.cs" />
+    <Compile Include="SubstituteAlgorithm\SubstituteAlgorithm.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
