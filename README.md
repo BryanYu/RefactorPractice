@@ -62,5 +62,5 @@
 * [移除對參數賦值(RemovAssignmentsToParameters)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/RemovAssignmentsToParameters)
 * [用函式物件替換函式(ReplaceMethodWithMethodObject)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ReplaceMethodWithMethodObject)
 * [替換演算法(SubstituteAlgorithm)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SubstituteAlgorithm)
-* [移動函式(SubstituteAlgorithm)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveMethod)
+* [移動函式(MoveMethod)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveMethod)
 
