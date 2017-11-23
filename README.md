@@ -54,6 +54,10 @@
 
 ## 重構手法
 * [提煉函式(Extract Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ExtractMethod)
+* [行內函式(Inline Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/InlineMethod)
+* [行內暫時變數(Inline Temp)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/InlineTemp)
+* [用回傳函式替換暫時變數(Replace Temp With Query)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ReplaceTempWithQuery)
+* [以變數解釋運算式用途(Introduce Explaining Variable)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/IntroduceExplainingVariable)
 
 
 
