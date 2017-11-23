@@ -60,7 +60,7 @@
 * [以變數解釋運算式用途(Introduce Explaining Variable)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/IntroduceExplainingVariable)
 * [剖解暫時變數(Split Temporary Variable)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SplitTemporaryVariable)
 * [移除對參數賦值(RemovAssignmentsToParameters)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/RemovAssignmentsToParameters)
-
+* [用函式物件替換函式(ReplaceMethodWithMethodObject)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ReplaceMethodWithMethodObject)
 
 
 

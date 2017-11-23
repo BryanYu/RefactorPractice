@@ -67,6 +67,7 @@
     <None Include="InlineTemp\README.md" />
     <None Include="IntroduceExplainingVariable\README.md" />
     <None Include="RemovAssignmentsToParameters\README.md" />
+    <None Include="ReplaceMethodWithMethodObject\README.md" />
     <None Include="ReplaceTempWithQuery\README.md" />
     <None Include="SplitTemporaryVariable\README.md" />
   </ItemGroup>
