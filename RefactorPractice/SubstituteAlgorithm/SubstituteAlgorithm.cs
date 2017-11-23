@@ -10,21 +10,16 @@ namespace RefactorPractice.SubstituteAlgorithm
     {
         public string FoundPerson(string[] people)
         {
+            var candidates = new List<string> { "Don", "John", "Kent" };
+
             for (int i = 0; i < people.Length; i++)
             {
-                if (people[i].Equals("Don"))
+                if (candidates.Contains(people[i]))
                 {
-                    return "Don";
-                }
-                if (people[i].Equals("John"))
-                {
-                    return "John";
-                }
-                if (people[i].Equals("Kent"))
-                {
-                    return "Kent";
+                    return people[i];
                 }
             }
+
             return string.Empty;
         }
     }
