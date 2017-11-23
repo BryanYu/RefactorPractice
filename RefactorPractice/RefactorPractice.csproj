@@ -55,6 +55,7 @@
     <Compile Include="IntroduceExplainingVariable\IntroduceExplainingVariable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemovAssignentToParameters\RemovAssignentToParameters.cs" />
     <Compile Include="ReplaceTempWithQuery\ReplaceTempWithQuery.cs" />
     <Compile Include="SplitTemporaryVariable\SplitTemporaryVariable.cs" />
   </ItemGroup>
