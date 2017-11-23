@@ -55,12 +55,20 @@
     <Compile Include="IntroduceExplainingVariable\IntroduceExplainingVariable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RemovAssignentToParameters\RemovAssignentToParameters.cs" />
+    <Compile Include="RemovAssignmentsToParameters\RemovAssignentToParameters.cs" />
+    <Compile Include="ReplaceMethodWithMethodObject\ReplaceMethodWithMethodObject.cs" />
     <Compile Include="ReplaceTempWithQuery\ReplaceTempWithQuery.cs" />
     <Compile Include="SplitTemporaryVariable\SplitTemporaryVariable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ExtractMethod\README.md" />
+    <None Include="InlineMethod\README.md" />
+    <None Include="InlineTemp\README.md" />
+    <None Include="IntroduceExplainingVariable\README.md" />
+    <None Include="RemovAssignmentsToParameters\README.md" />
+    <None Include="ReplaceTempWithQuery\README.md" />
+    <None Include="SplitTemporaryVariable\README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
