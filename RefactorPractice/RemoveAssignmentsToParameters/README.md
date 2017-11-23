@@ -1,4 +1,4 @@
-## 移除對參數賦值(RemovAssignmentsToParameters)
+## 移除對參數賦值(RemoveAssignmentsToParameters)
 
 程式碼對一個參數進行賦值，用一個暫時變數取代該參數的位置
 
