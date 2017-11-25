@@ -70,6 +70,7 @@
     <None Include="InlineMethod\README.md" />
     <None Include="InlineTemp\README.md" />
     <None Include="IntroduceExplainingVariable\README.md" />
+    <None Include="MoveField\README.md" />
     <None Include="MoveMethod\README.md" />
     <None Include="RemoveAssignmentsToParameters\README.md" />
     <None Include="ReplaceMethodWithMethodObject\README.md" />

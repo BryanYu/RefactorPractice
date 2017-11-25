@@ -63,4 +63,4 @@
 * [用函式物件替換函式(Replace Method With MethodObject)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ReplaceMethodWithMethodObject)
 * [替換演算法(Substitute Algorithm)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SubstituteAlgorithm)
 * [移動函式(Move Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveMethod)
-
+* [移動欄位(Move Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveField)
