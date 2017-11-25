@@ -10,16 +10,21 @@ namespace RefactorPractice.ExtractClass
     {
         public class Person
         {
+            private TelephoneNumber _officeTelephone = new TelephoneNumber();
+
             public string Name { get; set; }
-
-            public string OfficeAreaCode { get; set; }
-
-            public string OfficeNumber { get; set; }
 
             public string GetOfficeTelephoneNumber()
             {
-                return $"({this.OfficeAreaCode}) {this.OfficeNumber}";
+                return $"({this._officeTelephone.AreaCode}) {this._officeTelephone.Number}";
             }
+        }
+
+        public class TelephoneNumber
+        {
+            public string AreaCode { get; set; }
+
+            public string Number { get; set; }
         }
     }
 }
