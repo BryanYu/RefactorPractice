@@ -53,6 +53,7 @@
     <Compile Include="InlineMethod\InlineMethod.cs" />
     <Compile Include="InlineTemp\InlineTemp.cs" />
     <Compile Include="IntroduceExplainingVariable\IntroduceExplainingVariable.cs" />
+    <Compile Include="MoveField\MoveField.cs" />
     <Compile Include="MoveMethod\MoveMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
