@@ -49,6 +49,7 @@
     <Compile Include="Ch1Lab\Price.cs" />
     <Compile Include="Ch1Lab\RegularPrice.cs" />
     <Compile Include="Ch1Lab\Rental.cs" />
+    <Compile Include="ExtractClass\ExtractClass.cs" />
     <Compile Include="ExtractMethod\ExtractMethod.cs" />
     <Compile Include="InlineMethod\InlineMethod.cs" />
     <Compile Include="InlineTemp\InlineTemp.cs" />
@@ -78,5 +79,6 @@
     <None Include="SplitTemporaryVariable\README.md" />
     <None Include="SubstituteAlgorithm\README.md" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
