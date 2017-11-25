@@ -12,11 +12,21 @@ namespace RefactorPractice.MoveField
         {
             public AccountType _type;
 
-            private double _interestRate;
+            public double InterestRate
+            {
+                get
+                {
+                    return this._type.InterestRate;
+                }
+                set
+                {
+                    this._type.InterestRate = value;
+                }
+            }
 
             public double InterestForAmonuntDays(double amount, int days)
             {
-                return this._interestRate * amount * days / 365;
+                return this.InterestRate * amount * days / 365;
             }
         }
 
