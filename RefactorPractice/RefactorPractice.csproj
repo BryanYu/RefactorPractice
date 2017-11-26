@@ -71,6 +71,7 @@
     <None Include="App.config" />
     <None Include="ExtractClass\README.md" />
     <None Include="ExtractMethod\README.md" />
+    <None Include="HideDelegate\README.md" />
     <None Include="InlineClass\README.md" />
     <None Include="InlineMethod\README.md" />
     <None Include="InlineTemp\README.md" />

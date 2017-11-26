@@ -69,5 +69,5 @@
 * [移動函式(Move Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveMethod)
 * [移動欄位(Move Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveField)
 * [提煉類別(Move Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ExtractClass)
-* [行內類別(Inline Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/Inline)
-
+* [行內類別(Inline Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/InlineClass)
+* [隱藏委託關係(Hide Delegate)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/HideDelegate)
