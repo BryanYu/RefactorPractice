@@ -53,6 +53,8 @@
 * 過多的註釋(Comments)
 
 ## 重構手法
+
+### 重新組織函式
 * [提煉函式(Extract Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ExtractMethod)
 * [行內函式(Inline Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/InlineMethod)
 * [行內暫時變數(Inline Temp)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/InlineTemp)
@@ -62,6 +64,10 @@
 * [移除對參數賦值(Remove Assignments To Parameters)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/RemoveAssignmentsToParameters)
 * [用函式物件替換函式(Replace Method With MethodObject)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ReplaceMethodWithMethodObject)
 * [替換演算法(Substitute Algorithm)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SubstituteAlgorithm)
+
+### 在物件中間搬移特性
 * [移動函式(Move Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveMethod)
 * [移動欄位(Move Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveField)
 * [提煉類別(Move Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ExtractClass)
+* [行內類別(Inline Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/Inline)
+
