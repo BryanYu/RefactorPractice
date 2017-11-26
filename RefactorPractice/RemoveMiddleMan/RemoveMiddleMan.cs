@@ -11,17 +11,12 @@ namespace RefactorPractice.RemoveMiddleMan
         public void Sample()
         {
             var person = new Person();
-            var manager = person.GetManager();
+            var manager = person.Department.Manager;
         }
 
         public class Person
         {
             public Department Department;
-
-            public Person GetManager()
-            {
-                return this.Department.Manager;
-            }
         }
 
         public class Department
