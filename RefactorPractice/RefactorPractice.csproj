@@ -80,6 +80,7 @@
     <None Include="MoveField\README.md" />
     <None Include="MoveMethod\README.md" />
     <None Include="RemoveAssignmentsToParameters\README.md" />
+    <None Include="RemoveMiddleMan\README.md" />
     <None Include="ReplaceMethodWithMethodObject\README.md" />
     <None Include="ReplaceTempWithQuery\README.md" />
     <None Include="SplitTemporaryVariable\README.md" />
