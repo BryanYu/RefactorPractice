@@ -12,22 +12,6 @@ namespace RefactorPractice.InlineClass
         {
             public string Name { get; set; }
 
-            public TelephoneNumber Type
-            {
-                get
-                {
-                    return new TelephoneNumber();
-                }
-            }
-
-            public string GetTelephoneNumber()
-            {
-                return this.Type.GetTelephoneNumber();
-            }
-        }
-
-        public class TelephoneNumber
-        {
             public string Number { get; set; }
 
             public string AreaCode { get; set; }
