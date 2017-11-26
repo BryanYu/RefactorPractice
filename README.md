@@ -54,21 +54,21 @@
 
 ## 重構手法
 
-### 重新組織函式
-* [提煉函式(Extract Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ExtractMethod)
-* [行內函式(Inline Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/InlineMethod)
-* [行內暫時變數(Inline Temp)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/InlineTemp)
-* [用回傳函式替換暫時變數(Replace Temp With Query)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ReplaceTempWithQuery)
-* [以變數解釋運算式用途(Introduce Explaining Variable)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/IntroduceExplainingVariable)
-* [剖解暫時變數(Split Temporary Variable)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SplitTemporaryVariable)
-* [移除對參數賦值(Remove Assignments To Parameters)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/RemoveAssignmentsToParameters)
-* [用函式物件替換函式(Replace Method With MethodObject)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ReplaceMethodWithMethodObject)
-* [替換演算法(Substitute Algorithm)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SubstituteAlgorithm)
+### 重新組織函式(Composing Methods)
+* [提煉函式(Extract Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/ExtractMethod)
+* [行內函式(Inline Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/InlineMethod)
+* [行內暫時變數(Inline Temp)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/InlineTemp)
+* [用回傳函式替換暫時變數(Replace Temp With Query)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/ReplaceTempWithQuery)
+* [以變數解釋運算式用途(Introduce Explaining Variable)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/IntroduceExplainingVariable)
+* [剖解暫時變數(Split Temporary Variable)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/SplitTemporaryVariable)
+* [移除對參數賦值(Remove Assignments To Parameters)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/RemoveAssignmentsToParameters)
+* [用函式物件替換函式(Replace Method With MethodObject)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/ReplaceMethodWithMethodObject)
+* [替換演算法(Substitute Algorithm)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ComposingMethods/SubstituteAlgorithm)
 
-### 在物件中間搬移特性
-* [移動函式(Move Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveMethod)
-* [移動欄位(Move Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MoveField)
-* [提煉類別(Move Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/ExtractClass)
-* [行內類別(Inline Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/InlineClass)
-* [隱藏委託關係(Hide Delegate)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/HideDelegate)
-* [移除中間人(Remove Middle Man)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/RemoveMiddleMan)
+### 在物件中間搬移特性(Moving Features Between Objects)
+* [移動函式(Move Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/MoveMethod)
+* [移動欄位(Move Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/MoveField)
+* [提煉類別(Move Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/ExtractClass)
+* [行內類別(Inline Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/InlineClass)
+* [隱藏委託關係(Hide Delegate)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/HideDelegate)
+* [移除中間人(Remove Middle Man)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/RemoveMiddleMan)
