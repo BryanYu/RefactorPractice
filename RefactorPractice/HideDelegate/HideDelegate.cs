@@ -11,12 +11,17 @@ namespace RefactorPractice.HideDelegate
         public void Sample()
         {
             var person = new Person();
-            var manager = person.Department.Manager;
+            var manager = person.GetManager();
         }
 
         public class Person
         {
             public Department Department;
+
+            public Person GetManager()
+            {
+                return this.Department.Manager;
+            }
         }
 
         public class Department
