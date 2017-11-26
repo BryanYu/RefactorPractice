@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace RefactorPractice.ExtractMethod
+namespace RefactorPractice.ComposingMethods.ExtractMethod
 {
     internal class ExtractMethod
     {
@@ -19,11 +17,11 @@ namespace RefactorPractice.ExtractMethod
         private void PrintOwing()
         {
             // print banner
-            PrintBanner();
-            double outstanding = GetOutStanding();
+            this.PrintBanner();
+            double outstanding = this.GetOutStanding();
 
             // print detail
-            PrintDetail(outstanding);
+            this.PrintDetail(outstanding);
         }
 
         private double GetOutStanding()

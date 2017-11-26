@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace RefactorPractice.SplitTemporaryVarible
+namespace RefactorPractice.ComposingMethods.SplitTemporaryVariable
 {
     public class SplitTemporaryVarible
     {
@@ -19,14 +18,14 @@ namespace RefactorPractice.SplitTemporaryVarible
         public double GetDistanceTravelled(int time)
         {
             double result;
-            double primaryAcc = _primaryForce / _mass;
-            int primaryTime = Math.Min(time, _delay);
+            double primaryAcc = this._primaryForce / this._mass;
+            int primaryTime = Math.Min(time, this._delay);
             result = 0.5 * primaryAcc * primaryTime * primaryTime;
             int secondaryTime = time - this._delay;
             if (secondaryTime > 0)
             {
                 double primaryVel = primaryAcc * this._delay;
-                double secondaryAcc = (this._primaryForce + _secondaryForce) / this._mass;
+                double secondaryAcc = (this._primaryForce + this._secondaryForce) / this._mass;
                 result += primaryVel * secondaryTime + 0.5 * secondaryAcc * secondaryTime * secondaryTime;
             }
             return result;

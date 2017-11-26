@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace RefactorPractice.MoveMethod
+namespace RefactorPractice.MovingFeaturesBetweenObjects.MoveMethod
 {
     public class MoveMethod
     {
@@ -18,7 +16,7 @@ namespace RefactorPractice.MoveMethod
             public double BankCharge()
             {
                 double result = 4.5;
-                if (_daysOverdrawn > 0)
+                if (this._daysOverdrawn > 0)
                 {
                     result += this._type.OverDraftCharge(this);
                 }
@@ -40,7 +38,7 @@ namespace RefactorPractice.MoveMethod
 
             public double OverDraftCharge(Account account)
             {
-                if (IsPremium())
+                if (this.IsPremium())
                 {
                     double result = 10;
                     if (account.GetDaysOverdrawn() > 7)

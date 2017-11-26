@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace RefactorPractice.ReplaceMethodWithMethodObject
+namespace RefactorPractice.ComposingMethods.ReplaceMethodWithMethodObject
 {
     public class ReplaceMethodWithMethodObject
     {
@@ -47,8 +46,8 @@ namespace RefactorPractice.ReplaceMethodWithMethodObject
 
             public int Compute()
             {
-                int importantValue1 = (inputVal * quantity) + this._account.Delta();
-                int importantValue2 = (inputVal * yearToDate) + 100;
+                int importantValue1 = (this.inputVal * this.quantity) + this._account.Delta();
+                int importantValue2 = (this.inputVal * this.yearToDate) + 100;
                 this.ImportantThing();
                 int importantValue3 = importantValue2 * 7;
                 return importantValue3 - 2 * importantValue1;
@@ -56,9 +55,9 @@ namespace RefactorPractice.ReplaceMethodWithMethodObject
 
             private void ImportantThing()
             {
-                if ((yearToDate - importantValue1) > 100)
+                if ((this.yearToDate - this.importantValue1) > 100)
                 {
-                    importantValue2 -= 20;
+                    this.importantValue2 -= 20;
                 }
             }
         }

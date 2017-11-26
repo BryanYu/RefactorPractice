@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace RefactorPractice.ReplaceTempWithQuery
+namespace RefactorPractice.ComposingMethods.ReplaceTempWithQuery
 {
     public class ReplaceTempWithQuery
     {
@@ -14,13 +13,13 @@ namespace RefactorPractice.ReplaceTempWithQuery
 
         public double Sample()
         {
-            if (GetBasePrice() > 1000)
+            if (this.GetBasePrice() > 1000)
             {
-                return GetBasePrice() * 0.95;
+                return this.GetBasePrice() * 0.95;
             }
             else
             {
-                return GetBasePrice() * 0.98;
+                return this.GetBasePrice() * 0.98;
             }
         }
 
