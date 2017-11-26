@@ -10,8 +10,13 @@ namespace RefactorPractice.MovingFeaturesBetweenObjects.IntroduceForeignMethod
     {
         public void Sample()
         {
-            DateTime previousEnd = new DateTime();
-            DateTime newStart = new DateTime(previousEnd.Year, previousEnd.Month, previousEnd.Day + 1);
+            DateTime previousEnd = DateTime.Now;
+            var newStart = GetNextDay(previousEnd);
+        }
+
+        private static DateTime GetNextDay(DateTime previousEnd)
+        {
+            return new DateTime(previousEnd.Year, previousEnd.Month, previousEnd.Day + 1);
         }
     }
 }
