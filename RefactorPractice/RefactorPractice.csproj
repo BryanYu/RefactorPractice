@@ -51,6 +51,7 @@
     <Compile Include="Ch1Lab\Rental.cs" />
     <Compile Include="ExtractClass\ExtractClass.cs" />
     <Compile Include="ExtractMethod\ExtractMethod.cs" />
+    <Compile Include="HideDelegate\HideDelegate.cs" />
     <Compile Include="InlineClass\InlineClass.cs" />
     <Compile Include="InlineMethod\InlineMethod.cs" />
     <Compile Include="InlineTemp\InlineTemp.cs" />
