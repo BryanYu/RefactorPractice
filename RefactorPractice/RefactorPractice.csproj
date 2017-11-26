@@ -78,6 +78,7 @@
     <None Include="ComposingMethods\InlineMethod\README.md" />
     <None Include="ComposingMethods\InlineTemp\README.md" />
     <None Include="ComposingMethods\IntroduceExplainingVariable\README.md" />
+    <None Include="MovingFeaturesBetweenObjects\IntroduceForeignMethod\README.md" />
     <None Include="MovingFeaturesBetweenObjects\MoveField\README.md" />
     <None Include="MovingFeaturesBetweenObjects\MoveMethod\README.md" />
     <None Include="ComposingMethods\RemoveAssignmentsToParameters\README.md" />
