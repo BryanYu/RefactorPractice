@@ -10,24 +10,36 @@ namespace RefactorPractice.OrganizingData.SelfEncapsulateField
     {
         public class IntRange
         {
-            private int _low;
+            public int Low { get; set; }
 
-            private int _high;
+            public int High { get; set; }
 
             public IntRange(int low, int high)
             {
-                this._low = low;
-                this._high = high;
+                this.Low = low;
+                this.High = high;
             }
 
             public bool Includes(int arg)
             {
-                return arg >= this._low && arg <= this._high;
+                return arg >= this.Low && arg <= this.High;
             }
 
             public void Grow(int factor)
             {
-                this._high = this._high * factor;
+                this.High = this.High * factor;
+            }
+        }
+
+        public class CappedRange : IntRange
+        {
+            public int Cap;
+
+            public int High { get { return Math.Min(base.High, this.Cap); } }
+
+            public CappedRange(int low, int high, int cap) : base(low, high)
+            {
+                this.Cap = cap;
             }
         }
     }
