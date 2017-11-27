@@ -57,7 +57,6 @@
     <Compile Include="ComposingMethods\InlineTemp\InlineTemp.cs" />
     <Compile Include="ComposingMethods\IntroduceExplainingVariable\IntroduceExplainingVariable.cs" />
     <Compile Include="MovingFeaturesBetweenObjects\IntroduceForeignMethod\IntroduceForeignMethod.cs" />
-    <Compile Include="MovingFeaturesBetweenObjects\IntroduceLocalExtension\IntroduceLocalExtensionWithSubClass.cs" />
     <Compile Include="MovingFeaturesBetweenObjects\MoveField\MoveFieldWithSelfEncapsulation.cs" />
     <Compile Include="MovingFeaturesBetweenObjects\MoveField\MoveField.cs" />
     <Compile Include="MovingFeaturesBetweenObjects\MoveMethod\MoveMethod.cs" />
@@ -80,6 +79,7 @@
     <None Include="ComposingMethods\InlineTemp\README.md" />
     <None Include="ComposingMethods\IntroduceExplainingVariable\README.md" />
     <None Include="MovingFeaturesBetweenObjects\IntroduceForeignMethod\README.md" />
+    <None Include="MovingFeaturesBetweenObjects\IntroduceLocalExtension\README.md" />
     <None Include="MovingFeaturesBetweenObjects\MoveField\README.md" />
     <None Include="MovingFeaturesBetweenObjects\MoveMethod\README.md" />
     <None Include="ComposingMethods\RemoveAssignmentsToParameters\README.md" />
