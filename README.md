@@ -77,3 +77,4 @@
 
 ### 重新組織資料(Organizing Data)
 * [自我封裝欄位(Self Encapsulate Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/SelfEncapsulateField)
+* [以物件取代資料值(Replace Data Value With Object)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceDataValueWithObject)
