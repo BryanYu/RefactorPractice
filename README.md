@@ -74,3 +74,5 @@
 * [移除中間人(Remove Middle Man)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/RemoveMiddleMan)
 * [引入外加函式(Introduce Foreign Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/IntroduceForeignMethod)
 * [引入區域性擴展(Introduce Local Extension)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/IntroduceLocalExtension)
+
+### 重新組織資料(Organizing Data)
