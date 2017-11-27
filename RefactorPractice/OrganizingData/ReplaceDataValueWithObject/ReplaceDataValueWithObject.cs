@@ -10,14 +10,19 @@ namespace RefactorPractice.OrganizingData.ReplaceDataValueWithObject
     {
         public class Order
         {
-            private string _customer { get; set; }
+            private Customer _customer;
 
-            public Order(string customer)
+            public Order(string customerName)
             {
-                this._customer = customer;
+                this._customer = new Customer(customerName);
             }
 
-            private static int NumberOfOrderFor(List<Order> orders, string customer)
+            public string GetCustomerName()
+            {
+                return this._customer.Name;
+            }
+
+            private static int NumberOfOrderFor(List<Order> orders, Customer customer)
             {
                 var result = 0;
                 foreach (var order in orders)
@@ -28,6 +33,16 @@ namespace RefactorPractice.OrganizingData.ReplaceDataValueWithObject
                     }
                 }
                 return result;
+            }
+        }
+
+        public class Customer
+        {
+            public string Name { get; set; }
+
+            public Customer(string name)
+            {
+                this.Name = name;
             }
         }
     }
