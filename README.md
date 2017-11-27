@@ -76,3 +76,4 @@
 * [引入區域性擴展(Introduce Local Extension)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MovingFeaturesBetweenObjects/IntroduceLocalExtension)
 
 ### 重新組織資料(Organizing Data)
+* [自我封裝欄位(Self Encapsulate Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/SelfEncapsulateField)

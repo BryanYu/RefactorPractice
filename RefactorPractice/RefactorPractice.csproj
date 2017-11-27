@@ -89,6 +89,7 @@
     <None Include="ComposingMethods\ReplaceTempWithQuery\README.md" />
     <None Include="ComposingMethods\SplitTemporaryVariable\README.md" />
     <None Include="ComposingMethods\SubstituteAlgorithm\README.md" />
+    <None Include="OrganizingData\SelfEncapsulateField\README.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
