@@ -60,6 +60,7 @@
     <Compile Include="MovingFeaturesBetweenObjects\MoveField\MoveFieldWithSelfEncapsulation.cs" />
     <Compile Include="MovingFeaturesBetweenObjects\MoveField\MoveField.cs" />
     <Compile Include="MovingFeaturesBetweenObjects\MoveMethod\MoveMethod.cs" />
+    <Compile Include="OrganizingData\ReplaceDataValueWithObject\ReplaceDataValueWithObject.cs" />
     <Compile Include="OrganizingData\SelfEncapsulateField\SelfEncapsulateField.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
