@@ -11,11 +11,29 @@ namespace RefactorPractice.OrganizingData.ChangeValueToReference
     {
         public class Customer
         {
+            private static Dictionary<string, Customer> _instances = new Dictionary<string, Customer>();
             public string Name { get; set; }
 
-            public Customer(string name)
+            private Customer(string name)
             {
                 this.Name = name;
+            }
+
+            public static void LoadCustomers()
+            {
+                new Customer("Lemon Car Hire").Store();
+                new Customer("Associated Coffee Machines").Store();
+                new Customer("Bilston Gasworks").Store();
+            }
+
+            public static Customer Create(string name)
+            {
+                return _instances[name] as Customer;
+            }
+
+            private void Store()
+            {
+                _instances.Add(this.Name, this);
             }
         }
 
@@ -25,7 +43,7 @@ namespace RefactorPractice.OrganizingData.ChangeValueToReference
 
             public Order(string customerName)
             {
-                this.Customer = new Customer(customerName);
+                this.Customer = Customer.Create(customerName);
             }
 
             public static int NumberOfOrdersFor(List<Order> orders, string customer)
