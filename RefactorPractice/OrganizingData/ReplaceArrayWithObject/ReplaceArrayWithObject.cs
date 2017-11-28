@@ -10,11 +10,17 @@ namespace RefactorPractice.OrganizingData.ReplaceArrayWithObject
     {
         public void Sample()
         {
-            string[] row = new string[3];
-            row[0] = "Liverpool";
-            row[1] = "15";
-            string name = row[0];
-            int wins = Convert.ToInt32(name);
+            Performance row = new Performance();
+            row.Name = "Liverpool";
+            row.Wins = 15;
+            int wins = row.Wins;
+        }
+
+        public class Performance
+        {
+            public string Name { get; set; }
+
+            public int Wins { get; set; }
         }
     }
 }
