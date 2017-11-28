@@ -92,6 +92,7 @@
     <None Include="ComposingMethods\ReplaceTempWithQuery\README.md" />
     <None Include="ComposingMethods\SplitTemporaryVariable\README.md" />
     <None Include="ComposingMethods\SubstituteAlgorithm\README.md" />
+    <None Include="OrganizingData\ChangeReferenceToValue\README.md" />
     <None Include="OrganizingData\ChangeValueToReference\README.md" />
     <None Include="OrganizingData\ReplaceDataValueWithObject\README.md" />
     <None Include="OrganizingData\SelfEncapsulateField\README.md" />
