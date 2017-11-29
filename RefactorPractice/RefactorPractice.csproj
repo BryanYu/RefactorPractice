@@ -95,6 +95,7 @@
     <None Include="ComposingMethods\ReplaceTempWithQuery\README.md" />
     <None Include="ComposingMethods\SplitTemporaryVariable\README.md" />
     <None Include="ComposingMethods\SubstituteAlgorithm\README.md" />
+    <None Include="OrganizingData\ChangeBidirectonalAssociationToUnidirectional\README.md" />
     <None Include="OrganizingData\ChangeReferenceToValue\README.md" />
     <None Include="OrganizingData\ChangeUnidirectionalAssociationToBidirectonal\README.md" />
     <None Include="OrganizingData\ChangeValueToReference\README.md" />

@@ -82,4 +82,5 @@
 * [將參考物件改為實值物件(Change Reference To Value)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ChangeReferenceToValue)
 * [以物件取代陣列(Replace Array With Object)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceArrayWithObject)
 * [複製被監視的資料(Duplicate Observed Data)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/DuplicateObservedData)
-* [將單向關聯改為雙向(ChangeUnidirectional Association To Bidirectonal)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ChangeUnidirectionalAssociationToBidirectonal)
+* [將單向關聯改為雙向(Change Unidirectional Association To Bidirectonal)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ChangeUnidirectionalAssociationToBidirectonal)
+* [將雙向關聯改為單向(Change Bidirectonal Association To Unidirectional)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ChangeBidirectonalAssociationToUnidirectional)
