@@ -81,3 +81,4 @@
 * [將實值物件改為參考物件(Change Value To Reference)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ChangeValueToReference)
 * [將參考物件改為實值物件(Change Reference To Value)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ChangeReferenceToValue)
 * [以物件取代陣列(Replace Array With Object)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceArrayWithObject)
+* [複製被監視的資料(Duplicate Observed Data)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/DuplicateObservedData)
