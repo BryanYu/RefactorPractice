@@ -25,6 +25,16 @@ namespace RefactorPractice.OrganizingData.ChangeBidirectonalAssociationToUnidire
                     Customer.FriendOrders().Add(this);
                 }
             }
+
+            public double GetDiscountedPrice(Customer customer)
+            {
+                return GetGrossPirce() * (1 - customer.GetDiscount());
+            }
+
+            private double GetGrossPirce()
+            {
+                throw new NotImplementedException();
+            }
         }
 
         public class Customer
@@ -34,6 +44,16 @@ namespace RefactorPractice.OrganizingData.ChangeBidirectonalAssociationToUnidire
             public List<Order> FriendOrders()
             {
                 return this._orders;
+            }
+
+            public double GetDiscount()
+            {
+                throw new NotImplementedException();
+            }
+
+            public double GetPriceFor(Order order)
+            {
+                return order.GetDiscountedPrice(this);
             }
 
             private void AddOrder(Order arg)
