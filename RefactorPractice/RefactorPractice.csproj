@@ -61,6 +61,7 @@
     <Compile Include="MovingFeaturesBetweenObjects\MoveField\MoveField.cs" />
     <Compile Include="MovingFeaturesBetweenObjects\MoveMethod\MoveMethod.cs" />
     <Compile Include="OrganizingData\ChangeReferenceToValue\ChangeReferenceToValue.cs" />
+    <Compile Include="OrganizingData\ChangeUnidirectionalAssociationToBidirectonal\ChangeUnidirectionalAssociationToBidirectonal.cs" />
     <Compile Include="OrganizingData\ChangeValueToReference\ChangeValueToReference.cs" />
     <Compile Include="OrganizingData\ReplaceArrayWithObject\ReplaceArrayWithObject.cs" />
     <Compile Include="OrganizingData\ReplaceDataValueWithObject\ReplaceDataValueWithObject.cs" />
