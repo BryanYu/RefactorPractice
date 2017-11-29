@@ -95,6 +95,7 @@
     <None Include="ComposingMethods\SplitTemporaryVariable\README.md" />
     <None Include="ComposingMethods\SubstituteAlgorithm\README.md" />
     <None Include="OrganizingData\ChangeReferenceToValue\README.md" />
+    <None Include="OrganizingData\ChangeUnidirectionalAssociationToBidirectonal\README.md" />
     <None Include="OrganizingData\ChangeValueToReference\README.md" />
     <None Include="OrganizingData\DuplicateObservedData\README.md" />
     <None Include="OrganizingData\ReplaceArrayWithObject\README.md" />
