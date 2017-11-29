@@ -11,11 +11,36 @@ namespace RefactorPractice.OrganizingData.ChangeUnidirectionalAssociationToBidir
         public class Order
         {
             public Customer Customer { get; set; }
+
+            public void SetCustomer(Customer arg)
+            {
+                if (Customer != null)
+                {
+                    Customer.FriendOrders().Remove(this);
+                }
+
+                this.Customer = arg;
+
+                if (Customer != null)
+                {
+                    Customer.FriendOrders().Add(this);
+                }
+            }
         }
 
         public class Customer
         {
-            public List<Order> Orders { get; set; }
+            private List<Order> _orders { get; set; }
+
+            public List<Order> FriendOrders()
+            {
+                return _orders;
+            }
+
+            public void AddOrder(Order arg)
+            {
+                arg.SetCustomer(this);
+            }
         }
     }
 }
