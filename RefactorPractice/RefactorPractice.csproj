@@ -64,6 +64,7 @@
     <Compile Include="OrganizingData\ChangeReferenceToValue\ChangeReferenceToValue.cs" />
     <Compile Include="OrganizingData\ChangeUnidirectionalAssociationToBidirectonal\ChangeUnidirectionalAssociationToBidirectonal.cs" />
     <Compile Include="OrganizingData\ChangeValueToReference\ChangeValueToReference.cs" />
+    <Compile Include="OrganizingData\EncapsulateField\EncapsulateField.cs" />
     <Compile Include="OrganizingData\ReplaceArrayWithObject\ReplaceArrayWithObject.cs" />
     <Compile Include="OrganizingData\ReplaceDataValueWithObject\ReplaceDataValueWithObject.cs" />
     <Compile Include="OrganizingData\ReplaceMagicNumberWithSymbolicConstant\ReplaceMagicNumberWithSymbolicConstant.cs" />
