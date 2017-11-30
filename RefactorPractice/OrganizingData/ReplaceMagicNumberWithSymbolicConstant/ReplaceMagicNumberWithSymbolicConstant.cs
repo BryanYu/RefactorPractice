@@ -8,9 +8,11 @@ namespace RefactorPractice.OrganizingData.ReplaceMagicNumberWithSymbolicConstant
 {
     public class ReplaceMagicNumberWithSymbolicConstant
     {
+        public const double GRAVITATIONAL_CONSTANT = 9.81;
+
         public double PotentialEnergy(double mass, double height)
         {
-            return mass * 9.81 * height;
+            return mass * GRAVITATIONAL_CONSTANT * height;
         }
     }
 }
