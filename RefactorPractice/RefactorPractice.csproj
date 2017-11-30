@@ -109,6 +109,7 @@
     <None Include="OrganizingData\ReplaceDataValueWithObject\README.md" />
     <None Include="OrganizingData\ReplaceMagicNumberWithSymbolicConstant\README.md" />
     <None Include="OrganizingData\ReplaceRecordWithDataClass\README.md" />
+    <None Include="OrganizingData\ReplaceTypeCodeWithClass\README.md" />
     <None Include="OrganizingData\SelfEncapsulateField\README.md" />
   </ItemGroup>
   <ItemGroup />

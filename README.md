@@ -88,3 +88,4 @@
 * [封裝欄位(Encapsulate Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/EncapsulateField)
 * [封裝群集(Encapsulate Collection)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/EncapsulateCollection)
 * [以資料類別取代紀錄(Replace Record With Data Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceRecordWithDataClass)
+* [以類別取代型別代碼(Replace TypeCode With Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceTypeCodeWithClass)
