@@ -8,19 +8,18 @@ namespace RefactorPractice.OrganizingData.ReplaceTypeCodeWithClass
 {
     public class ReplaceTypeCodeWithClass
     {
+        public void Sample()
+        {
+            Person thePerson = new Person(BloodGroup.A);
+            var code = thePerson.BloodGroup.Code;
+            thePerson.BloodGroup = BloodGroup.AB;
+        }
+
         public class Person
         {
-            public static int O = 1;
+            private BloodGroup _bloodGroup;
 
-            public static int A = 2;
-
-            public static int B = 2;
-
-            public static int AB = 3;
-
-            private int _bloodGroup;
-
-            public int BloodGroup
+            public BloodGroup BloodGroup
             {
                 get
                 {
@@ -33,9 +32,42 @@ namespace RefactorPractice.OrganizingData.ReplaceTypeCodeWithClass
                 }
             }
 
-            public Person(int bloodGroup)
+            public Person(BloodGroup bloodGroup)
             {
                 this._bloodGroup = bloodGroup;
+            }
+        }
+
+        public class BloodGroup
+        {
+            public static BloodGroup O = new BloodGroup(0);
+
+            public static BloodGroup A = new BloodGroup(1);
+
+            public static BloodGroup B = new BloodGroup(2);
+
+            public static BloodGroup AB = new BloodGroup(3);
+
+            private static BloodGroup[] _values = { O, A, B, AB };
+
+            private int _code;
+
+            public int Code
+            {
+                get
+                {
+                    return this._code;
+                }
+            }
+
+            public BloodGroup(int code)
+            {
+                this._code = code;
+            }
+
+            private static BloodGroup GetCode(int arg)
+            {
+                return _values[arg];
             }
         }
     }
