@@ -66,6 +66,7 @@
     <Compile Include="OrganizingData\ChangeValueToReference\ChangeValueToReference.cs" />
     <Compile Include="OrganizingData\ReplaceArrayWithObject\ReplaceArrayWithObject.cs" />
     <Compile Include="OrganizingData\ReplaceDataValueWithObject\ReplaceDataValueWithObject.cs" />
+    <Compile Include="OrganizingData\ReplaceMagicNumberWithSymbolicConstant\ReplaceMagicNumberWithSymbolicConstant.cs" />
     <Compile Include="OrganizingData\SelfEncapsulateField\SelfEncapsulateField.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
