@@ -103,6 +103,7 @@
     <None Include="OrganizingData\DuplicateObservedData\README.md" />
     <None Include="OrganizingData\ReplaceArrayWithObject\README.md" />
     <None Include="OrganizingData\ReplaceDataValueWithObject\README.md" />
+    <None Include="OrganizingData\ReplaceMagicNumberWithSymbolicConstant\README.md" />
     <None Include="OrganizingData\SelfEncapsulateField\README.md" />
   </ItemGroup>
   <ItemGroup />
