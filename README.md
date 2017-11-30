@@ -85,3 +85,4 @@
 * [將單向關聯改為雙向(Change Unidirectional Association To Bidirectonal)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ChangeUnidirectionalAssociationToBidirectonal)
 * [將雙向關聯改為單向(Change Bidirectonal Association To Unidirectional)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ChangeBidirectonalAssociationToUnidirectional)
 * [以符號常數(字面常數)取代魔術數字 (Replace Magic Number With Symbolic Constant)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceMagicNumberWithSymbolicConstant)
+* [封裝欄位(Encapsulate Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/EncapsulateField)

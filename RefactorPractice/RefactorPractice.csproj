@@ -102,6 +102,7 @@
     <None Include="OrganizingData\ChangeUnidirectionalAssociationToBidirectonal\README.md" />
     <None Include="OrganizingData\ChangeValueToReference\README.md" />
     <None Include="OrganizingData\DuplicateObservedData\README.md" />
+    <None Include="OrganizingData\EncapsulateField\README.md" />
     <None Include="OrganizingData\ReplaceArrayWithObject\README.md" />
     <None Include="OrganizingData\ReplaceDataValueWithObject\README.md" />
     <None Include="OrganizingData\ReplaceMagicNumberWithSymbolicConstant\README.md" />
