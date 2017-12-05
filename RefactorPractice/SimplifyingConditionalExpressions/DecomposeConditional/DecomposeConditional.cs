@@ -16,19 +16,34 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.DecomposeConditiona
 
         public void Sample()
         {
-            DateTime SUMMER_START = new DateTime();
-            DateTime SUMMER_END = new DateTime();
             double charge = 0.0D;
             double quantity = 0.0D;
 
-            if (DateTime.Now <= SUMMER_START || DateTime.Now >= SUMMER_END)
+            if (NotSummer(DateTime.Now))
             {
-                charge = quantity * _winterRate + _winterServiceCharge;
+                charge = SummerCharge(quantity);
             }
             else
             {
-                charge = quantity * _summerRate;
+                charge = WinterCharge(quantity);
             }
+        }
+
+        private double WinterCharge(double quantity)
+        {
+            return quantity * _summerRate;
+        }
+
+        private double SummerCharge(double quantity)
+        {
+            return quantity * _winterRate + _winterServiceCharge;
+        }
+
+        private static bool NotSummer(DateTime now)
+        {
+            DateTime SUMMER_START = new DateTime();
+            DateTime SUMMER_END = new DateTime();
+            return now <= SUMMER_START || now >= SUMMER_END;
         }
     }
 }
