@@ -1,4 +1,4 @@
-## 移除控制旗標(Replace Nested Conditional With Guard Clauses)
+## 以衛述句取代巢狀條件式(Replace Nested Conditional With Guard Clauses)
 
 函式中的條件邏輯使人難以看清正常的執行路徑。
 
