@@ -37,24 +37,27 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.RemoveControlFlag
         {
             private void CheckSecurity(string[] people)
             {
-                var found = "";
+                var found = FoundMiscreant(people);
+                SomeLaterCode(found);
+            }
+
+            private string FoundMiscreant(string[] people)
+            {
                 for (int i = 0; i < people.Length; i++)
                 {
-                    if (found.Equals(""))
+                    if (people[i].Equals("Don"))
                     {
-                        if (people[i].Equals("Don"))
-                        {
-                            SendAlert();
-                            found = "Don";
-                        }
-                        if (people[i].Equals("John"))
-                        {
-                            SendAlert();
-                            found = "John";
-                        }
+                        SendAlert();
+                        return "Don";
+                    }
+                    if (people[i].Equals("John"))
+                    {
+                        SendAlert();
+                        return "John";
                     }
                 }
-                SomeLaterCode(found);
+
+                return "";
             }
 
             private void SomeLaterCode(string found)
