@@ -82,6 +82,7 @@
     <Compile Include="ComposingMethods\SplitTemporaryVariable\SplitTemporaryVariable.cs" />
     <Compile Include="ComposingMethods\SubstituteAlgorithm\SubstituteAlgorithm.cs" />
     <Compile Include="SimplifyingConditionalExpressions\ConsolidateConditionalExpression\ConsolidateConditionalExpression.cs" />
+    <Compile Include="SimplifyingConditionalExpressions\ConsolidateDuplicateConditionalFragments\ConsolidateDuplicateConditionalFragments.cs" />
     <Compile Include="SimplifyingConditionalExpressions\DecomposeConditional\DecomposeConditional.cs" />
   </ItemGroup>
   <ItemGroup>
