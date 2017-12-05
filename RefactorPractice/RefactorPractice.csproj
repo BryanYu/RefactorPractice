@@ -121,6 +121,7 @@
     <None Include="OrganizingData\ReplaceTypeCodeWithSubclasses\README.md" />
     <None Include="OrganizingData\SelfEncapsulateField\README.md" />
     <None Include="SimplifyingConditionalExpressions\ConsolidateConditionalExpression\README.md" />
+    <None Include="SimplifyingConditionalExpressions\ConsolidateDuplicateConditionalFragments\README.md" />
     <None Include="SimplifyingConditionalExpressions\DecomposeConditional\README.md" />
   </ItemGroup>
   <ItemGroup />

@@ -96,5 +96,8 @@
 ### 簡化條件式(Simplifying Conditional Expressions)
 * [分解條件式(Decompose Conditional)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/DecomposeConditional)
 * [合併條件式(Consolidate Conditional Expression)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ConsolidateConditionalExpression)
+* [合併重複的條件片段(Consolidate Duplicate Conditional Fragments)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ConsolidateDuplicateConditionalFragments)
+
+
 
 
