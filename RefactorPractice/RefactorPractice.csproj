@@ -84,6 +84,7 @@
     <Compile Include="SimplifyingConditionalExpressions\ConsolidateConditionalExpression\ConsolidateConditionalExpression.cs" />
     <Compile Include="SimplifyingConditionalExpressions\ConsolidateDuplicateConditionalFragments\ConsolidateDuplicateConditionalFragments.cs" />
     <Compile Include="SimplifyingConditionalExpressions\DecomposeConditional\DecomposeConditional.cs" />
+    <Compile Include="SimplifyingConditionalExpressions\RemoveControlFlag\RemoveControlFlag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
