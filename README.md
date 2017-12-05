@@ -91,3 +91,5 @@
 * [以類別取代型別代碼(Replace TypeCode With Class)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceTypeCodeWithClass)
 * [以子類別取代型別代碼(Replace Type Code With Subclasses)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceTypeCodeWithSubclasses)
 * [以State/Strategy取代型別代碼(Replace Type Code With State/Strategy)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceTypeCodeWithStateOrStrategy)
+* [以欄位取代子類別(Replace Subclass With Fields)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceSubclassWithFields)
+
