@@ -36,14 +36,7 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ConsolidateConditio
         {
             public double Sample()
             {
-                if (OnVacation())
-                {
-                    if (LengthOfService() > 10)
-                    {
-                        return 1;
-                    }
-                }
-                return 0.5;
+                return this.OnVacation() && this.LengthOfService() > 10 ? 1 : 0.5;
             }
 
             private int LengthOfService()
