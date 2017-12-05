@@ -18,11 +18,17 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ConsolidateConditio
 
             private double DisabilityAmount()
             {
-                if (_seniority < 2) return 0;
-                if (_monthsDisabled > 12) return 0;
-                if (_isPartTime) return 0;
+                if (IsNotEligibleForDisability())
+                {
+                    return 0;
+                }
 
                 return 1;
+            }
+
+            private bool IsNotEligibleForDisability()
+            {
+                return _seniority < 2 || _monthsDisabled > 12 || _isPartTime;
             }
         }
     }
