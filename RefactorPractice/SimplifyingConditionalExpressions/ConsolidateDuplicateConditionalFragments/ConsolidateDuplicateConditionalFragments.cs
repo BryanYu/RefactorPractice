@@ -15,13 +15,12 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ConsolidateDuplicat
             if (IsSpecialDeal())
             {
                 total = price * 0.95;
-                Send();
             }
             else
             {
                 total = price * 0.98;
-                Send();
             }
+            this.Send();
         }
 
         private bool IsSpecialDeal()
