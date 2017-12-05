@@ -81,6 +81,7 @@
     <Compile Include="ComposingMethods\ReplaceTempWithQuery\ReplaceTempWithQuery.cs" />
     <Compile Include="ComposingMethods\SplitTemporaryVariable\SplitTemporaryVariable.cs" />
     <Compile Include="ComposingMethods\SubstituteAlgorithm\SubstituteAlgorithm.cs" />
+    <Compile Include="SimplifyingConditionalExpressions\DecomposeConditional\DecomposeConditional.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
