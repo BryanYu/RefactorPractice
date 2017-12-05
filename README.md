@@ -93,3 +93,5 @@
 * [以State/Strategy取代型別代碼(Replace Type Code With State/Strategy)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceTypeCodeWithStateOrStrategy)
 * [以欄位取代子類別(Replace Subclass With Fields)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/OrganizingData/ReplaceSubclassWithFields)
 
+### 簡化條件式(Simplifying Conditional Expressions)
+* [分解條件式(Decompose Conditional)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/DecomposeConditional)
