@@ -16,30 +16,19 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ReplaceNestedCondit
 
         public double GetPayAmount()
         {
-            double result = 0.0;
             if (_isDead)
             {
-                result = DeadAmount();
+                return DeadAmount();
             }
-            else
+            if (_isSeparated)
             {
-                if (_isSeparated)
-                {
-                    result = SeparatedAmount();
-                }
-                else
-                {
-                    if (_isRetired)
-                    {
-                        result = RetiredAmount();
-                    }
-                    else
-                    {
-                        result = NormalPayAmount();
-                    }
-                }
+                return SeparatedAmount();
             }
-            return result;
+            if (_isRetired)
+            {
+                return RetiredAmount();
+            }
+            return NormalPayAmount();
         }
 
         private double NormalPayAmount()
