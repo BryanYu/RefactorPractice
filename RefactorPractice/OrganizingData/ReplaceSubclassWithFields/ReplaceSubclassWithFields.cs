@@ -1,43 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+
+using RefactorPractice.MovingFeaturesBetweenObjects.ExtractClass;
 
 namespace RefactorPractice.OrganizingData.ReplaceSubclassWithFields
 {
     internal class ReplaceSubclassWithFields
     {
-        public abstract class Person
+        public class Person
         {
-            public abstract bool IsMale();
+            private bool _isMale;
 
-            public abstract char GetCode();
-        }
+            private char _code;
 
-        public class Male : Person
-        {
-            public override bool IsMale()
+            protected Person(bool isMale, char code)
             {
-                return true;
+                this._isMale = isMale;
+                this._code = code;
             }
 
-            public override char GetCode()
+            public bool IsMale()
             {
-                return 'M';
-            }
-        }
-
-        public class Female : Person
-        {
-            public override bool IsMale()
-            {
-                return false;
+                return this._isMale;
             }
 
-            public override char GetCode()
+            public char GetCode()
             {
-                return 'F';
+                return this._code;
+            }
+
+            public static Person CreateFemale()
+            {
+                return new Person(true, 'M');
             }
         }
     }
