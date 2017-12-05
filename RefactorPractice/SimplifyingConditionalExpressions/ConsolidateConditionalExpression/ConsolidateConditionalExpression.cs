@@ -31,5 +31,30 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ConsolidateConditio
                 return _seniority < 2 || _monthsDisabled > 12 || _isPartTime;
             }
         }
+
+        public class LogicANDs
+        {
+            public double Sample()
+            {
+                if (OnVacation())
+                {
+                    if (LengthOfService() > 10)
+                    {
+                        return 1;
+                    }
+                }
+                return 0.5;
+            }
+
+            private int LengthOfService()
+            {
+                throw new NotImplementedException();
+            }
+
+            private bool OnVacation()
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
 }
