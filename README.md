@@ -97,7 +97,7 @@
 * [分解條件式(Decompose Conditional)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/DecomposeConditional)
 * [合併條件式(Consolidate Conditional Expression)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ConsolidateConditionalExpression)
 * [合併重複的條件片段(Consolidate Duplicate Conditional Fragments)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ConsolidateDuplicateConditionalFragments)
-
+* [移除控制旗標(Remove Control Flag)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/RemoveControlFlag)
 
 
 

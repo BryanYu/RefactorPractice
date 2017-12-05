@@ -124,6 +124,7 @@
     <None Include="SimplifyingConditionalExpressions\ConsolidateConditionalExpression\README.md" />
     <None Include="SimplifyingConditionalExpressions\ConsolidateDuplicateConditionalFragments\README.md" />
     <None Include="SimplifyingConditionalExpressions\DecomposeConditional\README.md" />
+    <None Include="SimplifyingConditionalExpressions\RemoveControlFlag\README.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
