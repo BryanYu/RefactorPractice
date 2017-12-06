@@ -16,11 +16,16 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ReplaceConditionalW
 
             private EmployeeType _type;
 
-            private int _monthlySalary;
+            public int MonthlySalary { get; set; }
 
-            private int _commission;
+            public int Commission { get; set; }
 
-            private int _bonus;
+            public int Bonus { get; set; }
+
+            public int PayAmount()
+            {
+                return this._type.PayAmount(this);
+            }
 
             public int Type
             {
@@ -29,23 +34,13 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ReplaceConditionalW
                     return this._type.GetTypeCode();
                 }
             }
-
-            private int PayAmount()
-            {
-                switch (this.Type)
-                {
-                    case ENGINERR: return _monthlySalary;
-                    case SALESMAN: return _monthlySalary + _commission;
-                    case MANAGER: return _monthlySalary + _bonus;
-                    default:
-                        throw new ArgumentException();
-                }
-            }
         }
 
         public abstract class EmployeeType
         {
             public abstract int GetTypeCode();
+
+            public abstract int PayAmount(Employee emp);
         }
 
         public class Engineer : EmployeeType
@@ -53,6 +48,11 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ReplaceConditionalW
             public override int GetTypeCode()
             {
                 return Employee.ENGINERR;
+            }
+
+            public override int PayAmount(Employee emp)
+            {
+                return emp.MonthlySalary;
             }
         }
 
@@ -62,6 +62,11 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ReplaceConditionalW
             {
                 return Employee.SALESMAN;
             }
+
+            public override int PayAmount(Employee emp)
+            {
+                return emp.MonthlySalary + emp.Commission;
+            }
         }
 
         public class Manager : EmployeeType
@@ -69,6 +74,11 @@ namespace RefactorPractice.SimplifyingConditionalExpressions.ReplaceConditionalW
             public override int GetTypeCode()
             {
                 return Employee.MANAGER;
+            }
+
+            public override int PayAmount(Employee emp)
+            {
+                return emp.MonthlySalary + emp.Bonus;
             }
         }
     }
