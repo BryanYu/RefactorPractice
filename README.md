@@ -99,5 +99,6 @@
 * [合併重複的條件片段(Consolidate Duplicate Conditional Fragments)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ConsolidateDuplicateConditionalFragments)
 * [移除控制旗標(Remove Control Flag)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/RemoveControlFlag)
 * [以衛述句取代巢狀條件式(Replace Nested Conditional With Guard Clauses)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ReplaceNestedConditionalWithGuardClauses)
+* [以多型取代條件式(Replace Conditional With Polymorphism)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ReplaceConditionalWithPolymorphism)
 
 
