@@ -127,6 +127,7 @@
     <None Include="SimplifyingConditionalExpressions\ConsolidateConditionalExpression\README.md" />
     <None Include="SimplifyingConditionalExpressions\ConsolidateDuplicateConditionalFragments\README.md" />
     <None Include="SimplifyingConditionalExpressions\DecomposeConditional\README.md" />
+    <None Include="SimplifyingConditionalExpressions\IntroduceAssertion\README.md" />
     <None Include="SimplifyingConditionalExpressions\IntroduceNullObject\README.md" />
     <None Include="SimplifyingConditionalExpressions\RemoveControlFlag\README.md" />
     <None Include="SimplifyingConditionalExpressions\ReplaceConditionalWithPolymorphism\README.md" />

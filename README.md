@@ -101,5 +101,6 @@
 * [以衛述句取代巢狀條件式(Replace Nested Conditional With Guard Clauses)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ReplaceNestedConditionalWithGuardClauses)
 * [以多型取代條件式(Replace Conditional With Polymorphism)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/ReplaceConditionalWithPolymorphism)
 * [引入Null Object(Introduce NullObject)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/IntroduceNullObject)
+* [引入斷言(Introduce Assertion)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/IntroduceAssertion)
 
 
