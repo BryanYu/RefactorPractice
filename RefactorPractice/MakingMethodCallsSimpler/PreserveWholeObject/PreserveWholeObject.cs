@@ -12,9 +12,7 @@ namespace RefactorPractice.MakingMethodCallsSimpler.PreserveWholeObject
         {
             public bool WithinPlan(HeatingPlan plan)
             {
-                int low = DaysTempRange().Low;
-                int high = DaysTempRange().High;
-                return plan.WithinRange(low, high);
+                return plan.WithinRange(this.DaysTempRange());
             }
 
             private TempRange DaysTempRange()
@@ -25,11 +23,9 @@ namespace RefactorPractice.MakingMethodCallsSimpler.PreserveWholeObject
 
         public class HeatingPlan
         {
-            private TempRange _range;
-
-            public bool WithinRange(int low, int high)
+            public bool WithinRange(TempRange roomRange)
             {
-                return (low > _range.Low && high <= _range.High);
+                return (roomRange.Low > roomRange.Low && roomRange.High <= roomRange.High);
             }
         }
 
