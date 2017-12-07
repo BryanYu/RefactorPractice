@@ -106,4 +106,5 @@
 ### 簡化函式呼叫(Making Method Calls Simpler)
 * [重新命名函式(Rename Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/RenameMethod)
 * [添加參數(Add Parameter)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/AddParameter)
+* [移除參數(Remove Parameter)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/RemoveParameter)
 
