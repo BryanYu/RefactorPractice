@@ -14,6 +14,11 @@ namespace RefactorPractice.MakingMethodCallsSimpler.RenameMethod
 
         public string GetTelephoneNumber()
         {
+            return GetOfficeTelephoneNumber();
+        }
+
+        private string GetOfficeTelephoneNumber()
+        {
             return $"({_officeAreaCode}){_officeNumber}";
         }
     }
