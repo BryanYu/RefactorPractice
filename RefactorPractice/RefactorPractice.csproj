@@ -96,6 +96,7 @@
     <None Include="MakingMethodCallsSimpler\AddParameter\README.md" />
     <None Include="MakingMethodCallsSimpler\RemoveParameter\README.md" />
     <None Include="MakingMethodCallsSimpler\RenameMethod\README.md" />
+    <None Include="MakingMethodCallsSimpler\SeparateQueryFromModifier\README.md" />
     <None Include="MovingFeaturesBetweenObjects\ExtractClass\README.md" />
     <None Include="ComposingMethods\ExtractMethod\README.md" />
     <None Include="MovingFeaturesBetweenObjects\HideDelegate\README.md" />
