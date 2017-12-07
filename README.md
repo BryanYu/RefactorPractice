@@ -103,6 +103,6 @@
 * [引入Null Object(Introduce NullObject)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/IntroduceNullObject)
 * [引入斷言(Introduce Assertion)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/IntroduceAssertion)
 
-### 重新命名函式(Rename Method)
-* 
+### 簡化函式呼叫(Making Method Calls Simpler)
+* [重新命名函式](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/RenameMethod)
 
