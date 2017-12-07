@@ -50,6 +50,7 @@
     <Compile Include="Ch1Lab\RegularPrice.cs" />
     <Compile Include="Ch1Lab\Rental.cs" />
     <Compile Include="MakingMethodCallsSimpler\ParameterizeMethod\ParameterizeMethod.cs" />
+    <Compile Include="MakingMethodCallsSimpler\PreserveWholeObject\PreserveWholeObject.cs" />
     <Compile Include="MakingMethodCallsSimpler\RenameMethod\RenameMethod.cs" />
     <Compile Include="MakingMethodCallsSimpler\ReplaceParameterWithExplicitMethod\ReplaceParameterWithExplicitMethod.cs" />
     <Compile Include="MakingMethodCallsSimpler\SeparateQueryFromModifier\SeparateQueryFromModifier.cs" />
