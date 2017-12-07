@@ -14,7 +14,16 @@ namespace RefactorPractice.MakingMethodCallsSimpler.ReplaceParameterWithMethods
 
         public double GetPrice()
         {
-            int basePrice = _quantity * _itemPrice;
+            return DiscountedPrice();
+        }
+
+        private int GetBasePrice()
+        {
+            return _quantity * _itemPrice;
+        }
+
+        private int GetDiscountLevel()
+        {
             int discountLevel;
             if (_quantity > 100)
             {
@@ -24,19 +33,19 @@ namespace RefactorPractice.MakingMethodCallsSimpler.ReplaceParameterWithMethods
             {
                 discountLevel = 1;
             }
-            double finalPrice = DiscountedPrice(basePrice, discountLevel);
-            return finalPrice;
+
+            return discountLevel;
         }
 
-        private double DiscountedPrice(int basePrice, int discountLevel)
+        private double DiscountedPrice()
         {
-            if (discountLevel == 2)
+            if (GetDiscountLevel() == 2)
             {
-                return basePrice * 0.1;
+                return this.GetBasePrice() * 0.1;
             }
             else
             {
-                return basePrice * 0.05;
+                return this.GetBasePrice() * 0.05;
             }
         }
     }
