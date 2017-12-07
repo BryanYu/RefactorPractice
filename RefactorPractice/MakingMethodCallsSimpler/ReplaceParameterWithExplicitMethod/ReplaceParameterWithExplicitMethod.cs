@@ -10,6 +10,12 @@ namespace RefactorPractice.MakingMethodCallsSimpler.ReplaceParameterWithExplicit
 {
     internal class ReplaceParameterWithExplicitMethod
     {
+        public void Sample()
+        {
+            //Employee kent = Employee.Create(Employee.ENGINEER);
+            Employee kent = Employee.CreateEngineer();
+        }
+
         public class Employee
         {
             public const int ENGINEER = 0;
@@ -18,15 +24,19 @@ namespace RefactorPractice.MakingMethodCallsSimpler.ReplaceParameterWithExplicit
 
             public const int MANAGER = 2;
 
-            private Employee Create(int type)
+            public static Employee CreateEngineer()
             {
-                switch (type)
-                {
-                    case ENGINEER: return new Engineer();
-                    case SALESMAN: return new SalesMan();
-                    case MANAGER: return new Manager();
-                    default: throw new ArgumentException();
-                }
+                return new Engineer();
+            }
+
+            public static Employee CreateSalesMan()
+            {
+                return new SalesMan();
+            }
+
+            public static Employee CreateManager()
+            {
+                return new Manager();
             }
         }
 
