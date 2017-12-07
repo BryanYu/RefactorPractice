@@ -11,7 +11,8 @@ namespace RefactorPractice.MakingMethodCallsSimpler.SeparateQueryFromModifier
     {
         public void CheckSecurity(string[] people)
         {
-            string found = this.FoundMiscreant(people);
+            this.SendAlert(people);
+            string found = FoundPerson(people);
             SomeLaterCode(found);
         }
 
@@ -20,7 +21,15 @@ namespace RefactorPractice.MakingMethodCallsSimpler.SeparateQueryFromModifier
             throw new NotImplementedException();
         }
 
-        public string FoundMiscreant(string[] people)
+        public void SendAlert(string[] people)
+        {
+            if (!FoundPerson(people).Equals(""))
+            {
+                this.SendAlert();
+            }
+        }
+
+        public string FoundPerson(string[] people)
         {
             for (int i = 0; i < people.Length; i++)
             {
