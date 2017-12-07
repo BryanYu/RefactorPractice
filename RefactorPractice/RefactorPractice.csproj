@@ -95,6 +95,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="MakingMethodCallsSimpler\AddParameter\README.md" />
+    <None Include="MakingMethodCallsSimpler\ParameterizeMethod\README.md" />
     <None Include="MakingMethodCallsSimpler\RemoveParameter\README.md" />
     <None Include="MakingMethodCallsSimpler\RenameMethod\README.md" />
     <None Include="MakingMethodCallsSimpler\SeparateQueryFromModifier\README.md" />
