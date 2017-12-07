@@ -104,5 +104,6 @@
 * [引入斷言(Introduce Assertion)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/SimplifyingConditionalExpressions/IntroduceAssertion)
 
 ### 簡化函式呼叫(Making Method Calls Simpler)
-* [重新命名函式](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/RenameMethod)
+* [重新命名函式(Rename Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/RenameMethod)
+* [添加參數(Add Parameter)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/AddParameter)
 
