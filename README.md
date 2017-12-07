@@ -109,3 +109,4 @@
 * [移除參數(Remove Parameter)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/RemoveParameter)
 * [將查詢函式和修改函式分離(Separate Query From Modifier)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/SeparateQueryFromModifier)
 * [令函式攜帶參數(Parameterize Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/ParameterizeMethod)
+* [以明確函式取代參數(Replace Parameter With Explicit Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/ReplaceParameterWithExplicitMethod)
