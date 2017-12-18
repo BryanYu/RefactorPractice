@@ -113,3 +113,5 @@
 * [保持物件完整(Preserve Whole Object)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/PreserveWholeObject)
 * [以函式取代參數(Replace Parameter With Methods)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/ReplaceParameterWithMethods)
 * [引入參數物件(Introduce Parameter Objects)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/IntroduceParameterObject)
+* [移除設值函式(Remove Setting Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/RemoveSettingMethod)
+
