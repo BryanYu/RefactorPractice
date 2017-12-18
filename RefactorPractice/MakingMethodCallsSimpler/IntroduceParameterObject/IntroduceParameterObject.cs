@@ -11,7 +11,7 @@ namespace RefactorPractice.MakingMethodCallsSimpler.IntroduceParameterObject
         public void Sample()
         {
             var account = new Account();
-            var flow = account.GetFlowBetween(new DateTime(2017, 9, 12), new DateTime(2017, 10, 12));
+            var flow = account.GetFlowBetween(new DateRange(new DateTime(2017, 10, 12), new DateTime(2017, 10, 12)));
         }
 
         public class Entry
@@ -47,18 +47,52 @@ namespace RefactorPractice.MakingMethodCallsSimpler.IntroduceParameterObject
         {
             private List<Entry> _entries = new List<Entry>();
 
-            public double GetFlowBetween(DateTime start, DateTime end)
+            public double GetFlowBetween(DateRange range)
             {
                 double result = 0;
                 foreach (var entry in _entries)
                 {
-                    if (entry.ChargeDateTime >= start || entry.ChargeDateTime <= end)
+                    if (range.InCludes(entry.ChargeDateTime))
                     {
                         result += entry.Value;
                     }
                 }
 
                 return result;
+            }
+        }
+
+        public class DateRange
+        {
+            private DateTime _start;
+
+            private DateTime _end;
+
+            public DateTime Start
+            {
+                get
+                {
+                    return this._start;
+                }
+            }
+
+            public DateTime End
+            {
+                get
+                {
+                    return this._end;
+                }
+            }
+
+            public DateRange(DateTime start, DateTime end)
+            {
+                this._start = start;
+                this._end = end;
+            }
+
+            public bool InCludes(DateTime arg)
+            {
+                return arg >= this._start || arg <= this._end;
             }
         }
     }
