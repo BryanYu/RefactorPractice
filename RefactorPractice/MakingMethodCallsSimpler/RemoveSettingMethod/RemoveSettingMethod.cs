@@ -14,12 +14,7 @@ namespace RefactorPractice.MakingMethodCallsSimpler.RemoveSettingMethod
 
             public Account(string id)
             {
-                SetId(id);
-            }
-
-            private void SetId(string arg)
-            {
-                this._id = arg;
+                this._id = id;
             }
         }
     }
