@@ -54,6 +54,7 @@
     <Compile Include="MakingMethodCallsSimpler\PreserveWholeObject\PreserveWholeObject.cs" />
     <Compile Include="MakingMethodCallsSimpler\RemoveSettingMethod\RemoveSettingMethod.cs" />
     <Compile Include="MakingMethodCallsSimpler\RenameMethod\RenameMethod.cs" />
+    <Compile Include="MakingMethodCallsSimpler\ReplaceConstructorWithFactoryMethod\ReplaceConstructorWithFactoryMethod.cs" />
     <Compile Include="MakingMethodCallsSimpler\ReplaceParameterWithExplicitMethod\ReplaceParameterWithExplicitMethod.cs" />
     <Compile Include="MakingMethodCallsSimpler\ReplaceParameterWithMethods\ReplaceParameterWithMethods.cs" />
     <Compile Include="MakingMethodCallsSimpler\SeparateQueryFromModifier\SeparateQueryFromModifier.cs" />
