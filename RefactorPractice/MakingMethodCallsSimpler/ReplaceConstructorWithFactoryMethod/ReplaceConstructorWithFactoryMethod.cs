@@ -21,7 +21,7 @@ namespace RefactorPractice.MakingMethodCallsSimpler.ReplaceConstructorWithFactor
             public const int SALESMAN = 1;
             public const int MANAGER = 2;
 
-            public Employee(int type)
+            private Employee(int type)
             {
                 this._type = type;
             }
