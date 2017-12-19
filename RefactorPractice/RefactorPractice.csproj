@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="DealWithGeneralization\ExtractSubClass\README.md" />
     <None Include="DealWithGeneralization\PullUpConstructorBody\README.md" />
     <None Include="DealWithGeneralization\PullUpField\README.md" />
     <None Include="DealWithGeneralization\PullUpMethod\README.md" />
