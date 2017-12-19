@@ -10,14 +10,13 @@ namespace RefactorPractice.MakingMethodCallsSimpler.ReplaceErrorCodeWithExceptio
     {
         private int _balance;
 
-        public int Withdraw(int amount)
+        public void Withdraw(int amount)
         {
             if (amount > _balance)
             {
-                return -1;
+                throw new Exception("錯誤");
             }
             this._balance -= amount;
-            return 0;
         }
     }
 }
