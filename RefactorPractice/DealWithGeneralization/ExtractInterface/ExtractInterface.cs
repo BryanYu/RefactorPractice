@@ -8,7 +8,7 @@ namespace RefactorPractice.DealWithGeneralization.ExtractInterface
 {
     public class ExtractInterface
     {
-        public class Employee
+        public class Employee : IBillable
         {
             private int _rate;
 
@@ -26,7 +26,7 @@ namespace RefactorPractice.DealWithGeneralization.ExtractInterface
             }
         }
 
-        public double Charge(Employee employee, int days)
+        public double Charge(IBillable employee, int days)
         {
             int result = employee.Rate * days;
             if (employee.HasSpecialSkill())
@@ -34,6 +34,13 @@ namespace RefactorPractice.DealWithGeneralization.ExtractInterface
                 return result * 1.05;
             }
             return result;
+        }
+
+        public interface IBillable
+        {
+            int Rate { get; }
+
+            bool HasSpecialSkill();
         }
     }
 }
