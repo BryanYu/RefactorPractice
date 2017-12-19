@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,21 +44,10 @@ namespace RefactorPractice.MakingMethodCallsSimpler.ReplaceConstructorWithFactor
             public const int SALESMAN = 1;
             public const int MANAGER = 2;
 
-            public static Employee Create(int type)
+            public static Employee Create(string name)
             {
-                switch (type)
-                {
-                    case ENGINEER:
-                        return new Engineer();
-
-                    case SALESMAN:
-                        return new SalesMan();
-
-                    case MANAGER:
-                        return new Manager();
-
-                    default: throw new ArgumentException("Incorrect type code value");
-                }
+                var result = Assembly.GetExecutingAssembly();
+                return result.CreateInstance(name) as Employee;
             }
         }
 
