@@ -120,5 +120,8 @@
 * [以異常取代錯誤碼(Replace Error Code With Exception)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/ReplaceErrorCodeWithException)
 * [以測試取代異常(Replace Exception With Test)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/ReplaceExceptionWithTest)
 
+### 處理概括關係(Deal With Generalization)
+* [欄位上移(Pull Up Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/PullUpField)
+
 
 
