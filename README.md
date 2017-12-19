@@ -122,6 +122,7 @@
 
 ### 處理概括關係(Deal With Generalization)
 * [欄位上移(Pull Up Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/PullUpField)
+* [函式上移(Pull Up Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/PullUpMethod)
 
 
 
