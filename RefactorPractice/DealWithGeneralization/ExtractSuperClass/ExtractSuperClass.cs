@@ -9,13 +9,14 @@ namespace RefactorPractice.DealWithGeneralization.ExtractSuperClass
 {
     public class ExtractSuperClass
     {
-        public class Employee
+        public abstract class Party
         {
-            private string _name;
+            protected Party(string name)
+            {
+                this._name = name;
+            }
 
-            private string _id;
-
-            private int _annualCost;
+            protected string _name;
 
             public string Name
             {
@@ -24,6 +25,15 @@ namespace RefactorPractice.DealWithGeneralization.ExtractSuperClass
                     return this._name;
                 }
             }
+
+            public abstract int GetAnnualCost();
+        }
+
+        public class Employee : Party
+        {
+            private string _id;
+
+            private int _annualCost;
 
             public string Id
             {
@@ -41,34 +51,27 @@ namespace RefactorPractice.DealWithGeneralization.ExtractSuperClass
                 }
             }
 
-            public Employee(string name, string id, int annualCost)
+            public Employee(string name, string id, int annualCost) : base(name)
             {
-                this._name = name;
                 this._id = id;
                 this._annualCost = annualCost;
             }
+
+            public override int GetAnnualCost()
+            {
+                return this.AnnualCost;
+            }
         }
 
-        public class Department
+        public class Department : Party
         {
-            private string _name;
-
             public List<Employee> _employees = new List<Employee>();
 
-            public string Name
+            public Department(string name) : base(name)
             {
-                get
-                {
-                    return this._name;
-                }
             }
 
-            public Department(string name)
-            {
-                this._name = name;
-            }
-
-            public int GetTotalAnnualCost()
+            public override int GetAnnualCost()
             {
                 return this._employees.Sum(item => item.AnnualCost);
             }
