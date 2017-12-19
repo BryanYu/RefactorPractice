@@ -105,6 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="DealWithGeneralization\ExtractInterface\ExtractInterface.cs" />
     <None Include="DealWithGeneralization\ExtractSubClass\README.md" />
     <None Include="DealWithGeneralization\ExtractSuperClass\README.md" />
     <None Include="DealWithGeneralization\PullUpConstructorBody\README.md" />
