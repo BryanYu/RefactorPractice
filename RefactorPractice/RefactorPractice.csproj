@@ -102,6 +102,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="MakingMethodCallsSimpler\AddParameter\README.md" />
+    <None Include="MakingMethodCallsSimpler\EncapsulateDowncast\README.md" />
     <None Include="MakingMethodCallsSimpler\HideMethod\README.md" />
     <None Include="MakingMethodCallsSimpler\IntroduceParameterObject\README.md" />
     <None Include="MakingMethodCallsSimpler\ParameterizeMethod\README.md" />
