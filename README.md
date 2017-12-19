@@ -125,6 +125,7 @@
 * [函式上移(Pull Up Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/PullUpMethod)
 * [建構式本體上移(Pull Up Constrctor Body)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/PullUpConstrctorBody)
 * [函式下移(Push Down Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/PushDownMethod)
+* [欄位下移(Push Down Field)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/PushDownField)
 
 
 
