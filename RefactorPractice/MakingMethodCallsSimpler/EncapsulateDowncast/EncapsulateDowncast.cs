@@ -12,7 +12,7 @@ namespace RefactorPractice.MakingMethodCallsSimpler.EncapsulateDowncast
         {
             private List<Reading> _readings = new List<Reading>();
 
-            public object LastReading()
+            public Reading LastReading()
             {
                 return this._readings.LastOrDefault();
             }
