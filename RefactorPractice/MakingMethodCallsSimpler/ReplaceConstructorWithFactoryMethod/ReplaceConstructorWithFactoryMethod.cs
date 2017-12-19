@@ -63,4 +63,34 @@ namespace RefactorPractice.MakingMethodCallsSimpler.ReplaceConstructorWithFactor
         {
         }
     }
+
+    public class ReplaceConstructorWithFactoryMethodByExplicitMethod
+    {
+        public void Sample()
+        {
+            Person person = Person.CreateFemale();
+            Person person2 = Person.CreateMale();
+        }
+
+        public class Person
+        {
+            public static Person CreateMale()
+            {
+                return new Male();
+            }
+
+            public static Person CreateFemale()
+            {
+                return new Female();
+            }
+        }
+
+        public class Male : Person
+        {
+        }
+
+        public class Female : Person
+        {
+        }
+    }
 }
