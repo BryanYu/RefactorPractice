@@ -49,6 +49,7 @@
     <Compile Include="Ch1Lab\Price.cs" />
     <Compile Include="Ch1Lab\RegularPrice.cs" />
     <Compile Include="Ch1Lab\Rental.cs" />
+    <Compile Include="MakingMethodCallsSimpler\EncapsulateDowncast\EncapsulateDowncast.cs" />
     <Compile Include="MakingMethodCallsSimpler\IntroduceParameterObject\IntroduceParameterObject.cs" />
     <Compile Include="MakingMethodCallsSimpler\ParameterizeMethod\ParameterizeMethod.cs" />
     <Compile Include="MakingMethodCallsSimpler\PreserveWholeObject\PreserveWholeObject.cs" />
