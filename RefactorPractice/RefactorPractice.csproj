@@ -106,6 +106,7 @@
     <None Include="DealWithGeneralization\PullUpConstructorBody\README.md" />
     <None Include="DealWithGeneralization\PullUpField\README.md" />
     <None Include="DealWithGeneralization\PullUpMethod\README.md" />
+    <None Include="DealWithGeneralization\PushDownMethod\README.md" />
     <None Include="MakingMethodCallsSimpler\AddParameter\README.md" />
     <None Include="MakingMethodCallsSimpler\EncapsulateDowncast\README.md" />
     <None Include="MakingMethodCallsSimpler\HideMethod\README.md" />
