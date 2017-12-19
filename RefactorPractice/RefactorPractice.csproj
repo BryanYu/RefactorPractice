@@ -108,6 +108,7 @@
     <None Include="MakingMethodCallsSimpler\RemoveParameter\README.md" />
     <None Include="MakingMethodCallsSimpler\RemoveSettingMethod\README.md" />
     <None Include="MakingMethodCallsSimpler\RenameMethod\README.md" />
+    <None Include="MakingMethodCallsSimpler\ReplaceConstructorWithFactoryMethod\README.md" />
     <None Include="MakingMethodCallsSimpler\ReplaceParameterWithExplicitMethod\README.md" />
     <None Include="MakingMethodCallsSimpler\ReplaceParameterWithMethods\README.md" />
     <None Include="MakingMethodCallsSimpler\SeparateQueryFromModifier\README.md" />

@@ -115,4 +115,6 @@
 * [引入參數物件(Introduce Parameter Objects)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/IntroduceParameterObject)
 * [移除設值函式(Remove Setting Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/RemoveSettingMethod)
 * [隱藏某個函式(Hide Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/HideMethod)
+* [以「工廠函式」取代「建構式」(Replace Constructor With Factory Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/MakingMethodCallsSimpler/ReplaceConstructorWithFactoryMethod)
+
 
