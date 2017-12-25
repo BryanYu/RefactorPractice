@@ -8,23 +8,21 @@ namespace RefactorPractice.DealWithGeneralization.ReplaceDelegationWithInheritan
 {
     internal class ReplaceDelegationWithInheritance
     {
-        public class Employee
+        public class Employee : Person
         {
-            private Person _person = new Person();
-
             public string GetName()
             {
-                return this._person.Name;
+                return base.Name;
             }
 
             public void SetName(string name)
             {
-                this._person.Name = name;
+                base.Name = name;
             }
 
             public string ToString()
             {
-                return "Emp:" + this._person.LastName;
+                return "Emp:" + base.LastName;
             }
         }
 
