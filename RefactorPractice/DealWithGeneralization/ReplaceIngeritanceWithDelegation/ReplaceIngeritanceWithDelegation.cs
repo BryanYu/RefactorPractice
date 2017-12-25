@@ -9,18 +9,30 @@ namespace RefactorPractice.DealWithGeneralization.ReplaceIngeritanceWithDelegati
 {
     internal class ReplaceIngeritanceWithDelegation
     {
-        public class MyStack : ArrayList
+        public class MyStack
         {
+            private ArrayList _arrayList;
+
             public void Push(Object obj)
             {
-                base.Insert(0, obj);
+                this._arrayList.Insert(0, obj);
             }
 
             public Object Pop()
             {
-                var result = base[0];
-                base.RemoveAt(0);
+                var result = this._arrayList[0];
+                this._arrayList.RemoveAt(0);
                 return result;
+            }
+
+            public int Size()
+            {
+                return this._arrayList.Count;
+            }
+
+            public bool IsEmpty()
+            {
+                return this._arrayList.Count == 0;
             }
         }
     }
