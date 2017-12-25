@@ -111,6 +111,7 @@
     <None Include="DealWithGeneralization\ExtractInterface\README.md" />
     <None Include="DealWithGeneralization\ExtractSubClass\README.md" />
     <None Include="DealWithGeneralization\ExtractSuperClass\README.md" />
+    <None Include="DealWithGeneralization\FormTemplateMethod\README.md" />
     <None Include="DealWithGeneralization\PullUpConstructorBody\README.md" />
     <None Include="DealWithGeneralization\PullUpField\README.md" />
     <None Include="DealWithGeneralization\PullUpMethod\README.md" />
