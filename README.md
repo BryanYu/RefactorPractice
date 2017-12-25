@@ -129,5 +129,6 @@
 * [提煉子類別(Extract Subclass)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/ExtractSubClass)
 * [提煉超類別(Extract Superclass)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/ExtractSuperclass)
 * [提煉介面(Extract Interface)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/ExtractInterface)
+* [摺疊繼承關係(Collapse Hierarchy)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/CollapseHierarchy)
 
 
