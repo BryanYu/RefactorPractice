@@ -53,7 +53,7 @@
     <Compile Include="DealWithGeneralization\ExtractSuperClass\ExtractSuperClass.cs" />
     <Compile Include="DealWithGeneralization\FormTemplateMethod\FormTemplateMethod.cs" />
     <Compile Include="DealWithGeneralization\PullUpConstructorBody\PullUpConstructorBody.cs" />
-    <Compile Include="DealWithGeneralization\ReplaceIngeritanceWithDelegation\ReplaceIngeritanceWithDelegation.cs" />
+    <Compile Include="DealWithGeneralization\ReplaceInheritanceWithDelegation\ReplaceInheritanceWithDelegation.cs" />
     <Compile Include="MakingMethodCallsSimpler\EncapsulateDowncast\EncapsulateDowncast.cs" />
     <Compile Include="MakingMethodCallsSimpler\IntroduceParameterObject\IntroduceParameterObject.cs" />
     <Compile Include="MakingMethodCallsSimpler\ParameterizeMethod\ParameterizeMethod.cs" />
@@ -118,6 +118,7 @@
     <None Include="DealWithGeneralization\PullUpMethod\README.md" />
     <None Include="DealWithGeneralization\PushDownField\README.md" />
     <None Include="DealWithGeneralization\PushDownMethod\README.md" />
+    <None Include="DealWithGeneralization\ReplaceInheritanceWithDelegation\README.md" />
     <None Include="MakingMethodCallsSimpler\AddParameter\README.md" />
     <None Include="MakingMethodCallsSimpler\EncapsulateDowncast\README.md" />
     <None Include="MakingMethodCallsSimpler\HideMethod\README.md" />

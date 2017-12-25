@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RefactorPractice.DealWithGeneralization.ReplaceIngeritanceWithDelegation
 {
-    internal class ReplaceIngeritanceWithDelegation
+    internal class ReplaceInheritanceWithDelegation
     {
         public class MyStack
         {
