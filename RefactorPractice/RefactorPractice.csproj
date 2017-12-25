@@ -119,6 +119,7 @@
     <None Include="DealWithGeneralization\PullUpMethod\README.md" />
     <None Include="DealWithGeneralization\PushDownField\README.md" />
     <None Include="DealWithGeneralization\PushDownMethod\README.md" />
+    <None Include="DealWithGeneralization\ReplaceDelegationWithInheritance\README.md" />
     <None Include="DealWithGeneralization\ReplaceInheritanceWithDelegation\README.md" />
     <None Include="MakingMethodCallsSimpler\AddParameter\README.md" />
     <None Include="MakingMethodCallsSimpler\EncapsulateDowncast\README.md" />

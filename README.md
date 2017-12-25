@@ -131,5 +131,6 @@
 * [提煉介面(Extract Interface)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/ExtractInterface)
 * [摺疊繼承關係(Collapse Hierarchy)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/CollapseHierarchy)
 * [塑造模板函式(Form Template Method)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/FormTemplateMethod)
-* [以委託取代繼承 (Replace Inheritance With Delegation)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/FormTemplateMethod)
+* [以委託取代繼承 (Replace Inheritance With Delegation)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/ReplaceInheritanceWithDelegation)
+* [以繼承取代委託(Replace Delegation With Inheritance)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/ReplaceDelegationWithInheritance)
 
