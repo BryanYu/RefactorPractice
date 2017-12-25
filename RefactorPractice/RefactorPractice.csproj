@@ -53,6 +53,7 @@
     <Compile Include="DealWithGeneralization\ExtractSuperClass\ExtractSuperClass.cs" />
     <Compile Include="DealWithGeneralization\FormTemplateMethod\FormTemplateMethod.cs" />
     <Compile Include="DealWithGeneralization\PullUpConstructorBody\PullUpConstructorBody.cs" />
+    <Compile Include="DealWithGeneralization\ReplaceDelegationWithInheritance\ReplaceDelegationWithInheritance.cs" />
     <Compile Include="DealWithGeneralization\ReplaceInheritanceWithDelegation\ReplaceInheritanceWithDelegation.cs" />
     <Compile Include="MakingMethodCallsSimpler\EncapsulateDowncast\EncapsulateDowncast.cs" />
     <Compile Include="MakingMethodCallsSimpler\IntroduceParameterObject\IntroduceParameterObject.cs" />
