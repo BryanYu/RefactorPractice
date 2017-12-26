@@ -109,6 +109,10 @@
   <ItemGroup>
     <None Include="App.config" />
     <Compile Include="DealWithGeneralization\ExtractInterface\ExtractInterface.cs" />
+    <None Include="BigRefactoring\ConvertProceduralDesignToObjects\README.md" />
+    <None Include="BigRefactoring\ExtractHierarchy\README.md" />
+    <None Include="BigRefactoring\SeparateDomainFromPresentation\README.md" />
+    <None Include="BigRefactoring\TeaseApartInheritance\README.md" />
     <None Include="DealWithGeneralization\CollapseHierarchy\README.md" />
     <None Include="DealWithGeneralization\ExtractInterface\README.md" />
     <None Include="DealWithGeneralization\ExtractSubClass\README.md" />

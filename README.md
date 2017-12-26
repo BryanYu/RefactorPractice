@@ -134,3 +134,19 @@
 * [以委託取代繼承 (Replace Inheritance With Delegation)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/ReplaceInheritanceWithDelegation)
 * [以繼承取代委託(Replace Delegation With Inheritance)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/DealWithGeneralization/ReplaceDelegationWithInheritance)
 
+### 大型重構(Big Refactoring)
+* [以繼承取代委託(Replace Delegation With Inheritance)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/BigRefactoring/TeaseApartInheritance)
+* [將程序式設計轉化為物件設計(Convert Procedural Design To Objects)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/BigRefactoring/ConvertProceduralDesignToObjects)
+* [將領域和表述/顯示分離(Separate Domain From Presentation)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/BigRefactoring/SeparateDomainFromPresentation)
+* [提煉繼承體系(Extract Hierarchy)](https://github.com/BryanYu/RefactorPractice/tree/master/RefactorPractice/BigRefactoring/ExtractHierarchy)
+
+## 重構的現實
+
+### 為什麼開發者不願意重構他們程式
+* 不知道如何重構
+* 如果這些利益是需要長時間才能展現的，何必現在付出努力? 長遠看來，當專案收穫這些利益的時候，或許自己已經不在職位上了
+* 程式碼重構是額外的工作，老闆付錢給你，是要你增加新功能
+* 重構可能破壞現有程式
+
+### 如何重構，在哪裡重構
+
